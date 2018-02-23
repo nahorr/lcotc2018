@@ -4768,7 +4768,7 @@ footer:not(.light) .footer-content .tag a,
 	border: none;
 	width: 25px;
 	height: 30px;
-	color: #999999;
+	color: #fff;
 	background-color: transparent;
 	border-color: transparent;
 }
@@ -5048,7 +5048,7 @@ footer:not(.light) .footer-content .tag a,
 	padding: 8px 10px;
 	margin: 0;
 	font-size: 12px;
-	color: #999;
+	color: #fff;
 	text-align: center;
 	min-width: 0;
 	background-color: transparent;

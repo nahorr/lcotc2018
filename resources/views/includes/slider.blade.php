@@ -87,17 +87,29 @@
                                 <!-- LAYER NR. 2 -->
                                 <div class="tp-caption sfr small_thin_white text-center tp-resizeme"
                                     data-x="center"
-                                    data-y="170" 
+                                    data-y="135" 
                                     data-speed="600"
                                     data-start="0"
                                     data-end="10000"
-                                    data-endspeed="600">H.E. Dr. Goodluck Jonathan <br>Former President - The Federal Republic of Nigeria.
+                                    data-endspeed="600">H.E. Dr. Goodluck Jonathan <br>Former President - The Federal Republic of Nigeria.                               
+                                </div>
+
+                                <!-- LAYER NR. 2-1 -->
+                                <div class="tp-caption sfr small_thin_white text-center tp-resizeme"
+                                    data-x="center"
+                                    data-y="200" 
+                                    data-speed="600"
+                                    data-start="0"
+                                    data-end="10000"
+                                    data-endspeed="600"><img src="{{asset('idea/images/keynote_speaker_slider.jpg')}}" alt="localcontentotc2018" data-tab-animation-effect="fadeInRightSmall">
+                                    
+                                        
                                 </div>
 
                                 <!-- LAYER NR. 3 -->
                                 <div class="tp-caption sfl tp-resizeme"
                                     data-x="center"
-                                    data-y="300" 
+                                    data-y="420" 
                                     data-speed="600"
                                     data-start="0"
                                     data-end="10000"

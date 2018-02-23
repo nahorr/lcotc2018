@@ -35,7 +35,7 @@
                             <p class="lead text-center">H.E. Dr. Goodluck Jonathan<br> Former President - Federal Repulic of Nigeria</p>
                             <!-- Tabs Top -->
                             <div class="text-center">
-                                <img src="{{asset('idea/images/section-image-1.png')}}" alt="iDea" data-tab-animation-effect="fadeInRightSmall">
+                                <img src="{{asset('idea/images/section-image-11.png')}}" alt="localcontentotc2018" data-tab-animation-effect="fadeInRightSmall">
                                 
                                 <div class="space"></div>
                             </div>
