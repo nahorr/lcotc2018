@@ -17,6 +17,8 @@
 						<div class="main object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="300">
 							<div class="form-block center-block">
 								<h2 class="title">Contact Us</h2>
+
+								<p class="text-center">For quick response, please complete the contact form below or send us an email via info@marakconsulting.com</p>
 								<hr>
 								<form class="form-horizontal" role="form" action="{{url('/postcontactform/')}}" method="POST">
 									{{ csrf_field() }}
