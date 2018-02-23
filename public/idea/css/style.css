@@ -321,7 +321,7 @@ tbody {
 	background-color: #ffffff;
 }
 .header-top {
-	background-color: #f1f1f1;
+	background-color: rgb(34, 34, 34);
 	border-bottom: 1px solid #dadada;
 	-webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.03) inset;
 	box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.03) inset;
@@ -368,7 +368,7 @@ tbody {
 	z-index: 2;
 }
 .page-top {
-	padding: 40px 0;
+	/*padding: 40px 0;*/
 }
 .main-container {
 	padding: 40px 0;
@@ -4563,7 +4563,7 @@ a.overlay.small i {
 	color: #e84c3d;
 }
 .box-style-3 {
-	margin-top: 20px;
+	margin-top: 140px;
 }
 .box-style-3 i {
 	font-size: 22px;

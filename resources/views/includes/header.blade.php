@@ -27,10 +27,10 @@
                                 <!-- ================ -->
                                 <div class="header-top-dropdown">
                                     <div class="btn-group dropdown">
-                                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-phone"></i> +14034022387</button>
+                                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-phone"></i> +1 214-930-3630</button>
                                     </div>
                                     <div class="btn-group dropdown">
-                                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-phone"></i> +2348060776024</button>
+                                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> info@marakconsulting.com</button>
                                     </div>
                                 </div>
                                 <!--  header top dropdowns end -->
@@ -58,7 +58,7 @@
 
                                 <!-- logo -->
                                 <div class="logo">
-                                    <a href="{{url('/')}}"><img id="logo" src="{{asset('idea/images/nahorr_logo.png')}}" alt="nahorr"></a>
+                                    <a href="{{url('/')}}"><img id="logo" src="{{asset('idea/images/marak_footer_logo.png')}}" alt="nahorr"></a>
                                 </div>
 
                             </div>
@@ -97,67 +97,20 @@
                                                         <a href="{{url('/')}}">Home</a>
                                                     </li>
                                                     <li class="">
-                                                        <a href="{{url('/about')}}">About Us</a>
+                                                        <a href="{{url('/about')}}">About</a>
                                                     </li>
-                                                    <li class="dropdown mega-menu">
-                                                        <a href="{{url('/products-services')}}" class="dropdown-toggle" data-toggle="dropdown">Products & Services</a>
-                                                        <ul class="dropdown-menu">
-                                                            <li>
-                                                                <div class="row">
-                                                                    <div class="col-lg-4 col-md-3 hidden-sm">
-                                                                        <h4>Nahorr Anlytics</h4>
-                                                                        <p>is a software and data analytics company. We take pride in what we do.</p>
-                                                                        <img src="images/section-image-3.png" alt="iDea">
-                                                                    </div>
-                                                                    <div class="col-lg-8 col-md-9">
-                                                                        
-                                                                        <div class="row">
-                                                                            <div class="col-sm-6">
-                                                                                <h4>Services</h4>
-                                                                                <div class="divider"></div>
-                                                                                <ul class="menu">
-                                                                                    <li><a href="{{url('/products-services')}}"><i class="icon-right-open"></i>Software Development</a></li>
-                                                                                    <li><a href="{{url('/products-services')}}"><i class="icon-right-open"></i>Data Analytics</a></li>
-                                                                                    <li><a href="{{url('/products-services')}}"><i class="icon-right-open"></i>Data Driven Website Design</a></li>
-                                                                                    <li><a href="{{url('/products-services')}}"><i class="icon-right-open"></i>Training and Talent Development</a></li>
-                                                                                </ul>
-                                                                            </div>
-                                                                            <div class="col-sm-6">
-                                                                                <h4>Products</h4>
-                                                                                <div class="divider"></div>
-                                                                                <ul class="menu">
-                                                                                    <li><a href="https://totalgrades.com/" target="_blank"><i class="icon-right-open"></i>Online Gradebook - Totalgrades</a></li>
-                                                                                    
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                   
-                                                    <li class="dropdown">
-                                                        <a href="{{url('/careers')}}" class="dropdown-toggle" data-toggle="dropdown">Careers</a>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="{{url('/careers')}}">Job Openings <span class="default-bg badge">
-                                                            @if($new_jobs == 1)
-                                                                {{$new_jobs}} Job
-                                                            @else
-                                                                {{$new_jobs}} Jobs
-                                                            @endif
-                                                            </span></a></li>
-                                                        </ul>
-                                                    </li>   
-                                                    <!-- mega-menu end -->
-                                                    <!-- mega-menu end -->
-                                                    <!-- mega-menu start -->
                                                     <li class="">
-                                                        <a href="{{url('/contact')}}">Contact Us</a>
+                                                        <a href="{{url('/contact')}}">Contact</a>
                                                     </li>
-                                                    <!-- mega-menu end -->
-                                                    
-                                                    
+                                                    <li class="">
+                                                        <a href="{{url('/contact')}}">Registration</a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="{{url('/contact')}}">Agenda</a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="{{url('/contact')}}">Speakers</a>
+                                                    </li>
                                                 </ul>
                                             </div>
 

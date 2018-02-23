@@ -6,45 +6,16 @@
 
             @include('includes.slider')
 
-            <!-- page-top start-->
-            <!-- ================ -->
+                        <!-- ================ -->
             <div class="page-top">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <div class="call-to-action">
-                                <h1 class="title">Welcome!</h1>
-                                <p>Nahorr analytics is a software and data analytics company.</p>
-                                <a class="btn btn-white more" data-toggle="modal" data-target="#myModal">
-                                Call or Whatsapp Us<i class="pl-10 fa fa-phone"></i>
-                                </a>
-
-                                <!-- Modal -->
-                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                                <h4 class="modal-title" id="myModalLabel">Call or Whatsapp Us.</h4>
-                                            </div>
-                                            <div class="modal-body">
-                                                <p>You can call us or chat with us on Whatsapp</p>
-                                             
-                                                <ul class="list-icons">
-                                                    <li><i class="icon-check"></i> Phone(Nigeria): 08035525141</li>
-                                                    <li><i class="icon-check"></i> Phone(Canada): +14034022387</li>
-                                                    
-                                                </ul>
-                                               
-                                            </div>
-                                            <div class="modal-footer">
-                                                <a href="{{asset('/contact')}}" type="button" class="btn btn-sm btn-default" role="button"><i class="icon-check"></i> Contact us</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                or
-                                <a href="{{asset('/contact')}}" class="btn btn-default contact">Contact us <i class="pl-10 fa fa-envelope"></i></a>
+                                <h1 class="title">UPCOMING EVENT</h1>
+                                <h2 class="title">LOCAL CONTENT CONFERENCE 2018 ON May 01 - 02 MAY, HOUSTON TEXAS</h2>
+                                <p>DON'T MISS OUT. This is the only major international local content event in the oil and gas industry in 2018. You'll meet local content experts from Middle East, Europe, Asia, Africa and South America.</p>
+                                <a href="http://events.eventzilla.net/e/local-content-conference-houston-2018-2138920154" target="_blank" class="btn btn-default contact">Register Now <i class="pl-10 fa fa-check"></i></a>
                             </div>
                         </div>
                     </div>
@@ -52,47 +23,48 @@
             </div>
             <!-- page-top end -->
 
-            <!-- main-container start -->
+            <!-- section start -->
             <!-- ================ -->
-            <section class="main-container gray-bg">
+            <div class="section clearfix object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="300">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <h1 class="text-center">CONFERENCE KEYNOTE SPEAKER</h1>
+                            <div class="separator"></div>
+                            <p class="lead text-center">H.E. Dr. Goodluck Jonathan<br> Former President - Federal Repulic of Nigeria</p>
+                            <!-- Tabs Top -->
+                            <div class="text-center">
+                                <img src="{{asset('idea/images/section-image-1.png')}}" alt="iDea" data-tab-animation-effect="fadeInRightSmall">
+                                
+                                <div class="space"></div>
+                            </div>
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- section end -->
+
+                        <!-- main-container start -->
+            <!-- ================ -->
+            <section class="main-container parallax dark-translucent-bg parallax-bg-3">
 
                 <!-- main start -->
                 <!-- ================ -->
                 <div class="main">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h1 class="text-center title">Products and Services</h1>
-                                <div class="separator"></div>
-                                <p class="text-center"></p>
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="box-style-1 white-bg object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
-                                            <i class="fa fa-bar-chart"></i>
-                                            <h2>Data Analysis</h2>
-                                            <p>We collect and analyse data.</p>
-                                            <a href="{{url('/products-services')}}" class="btn-default btn">Read More</a>
-                                        </div>
+                        <div class="call-to-action">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h1 class="title text-center">You'll meet local content experts from Middle East, Europe, Asia, Africa and South America.</h1>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-default btn-lg">Register Now</a>
                                     </div>
-                                    
-                                    <div class="col-sm-4">
-                                        <div class="box-style-1 white-bg object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
-                                            <i class="fa fa-code"></i>
-                                            <h2>Software Development</h2>
-                                            <p> We bring ideas and codes together.</p>
-                                            <a href="{{url('/products-services')}}" class="btn-default btn">Visit Product Website</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-4">
-                                        <div class="box-style-1 white-bg object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
-                                            <i class="fa fa-laptop"></i>
-                                            <h2>Totalgrades</h2>
-                                            <p> An innovative online gradebook.</p>
-                                            <a href="https://totalgrades.com/features" class="btn-default btn">Read More</a>
-                                        </div>
-                                    </div>
-                              
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -102,77 +74,280 @@
             </section>
             <!-- main-container end -->
 
+            <div class="space"></div>
 
-
-            <!-- section start -->
+            <!-- page-top start-->
             <!-- ================ -->
-            <div class="section parallax light-translucent-bg parallax-bg-3">
-                <div class="container">
-                    
-                            <!-- Counters start -->
-                            <!-- ============================================================================== -->
-                            <div class="stats row grid-space-10">
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="box-style-1">
-                                        <h2 class="title">We Listen</h2>
-                                        <i class="fa fa-volume-up"></i>
-                                        
-                                    </div>
-                                </div>
-                                
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="box-style-1">
-                                        <h2 class="title">We Think</h2>
-                                        <i class="fa fa-users"></i>
-                                       
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="box-style-1">
-                                        <h2 class="title">We Consult</h2>
-                                        <i class="fa fa-handshake-o"></i>
-                                        
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="box-style-1">
-                                        <h2 class="title">We Build</h2>
-                                        <i class="fa fa-cubes"></i>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                </div>
-            </div>
-            <!-- section end -->
-
-            <!-- section start -->
-            <!-- ================ -->
-            <div class="section clearfix">
+            <div class="page-top object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-
-                            <h1 class="text-center">Why Choose Nahorr Analytics</h1>
+                            <h1 class="text-center title">LOCAL CONTENT ALLIANCE SUMMIT AT OTC 2018 ON May 01 - MAY 02, 2018: BE THERE</h1>
                             <div class="separator"></div>
-                            <p class="lead text-center">Because we strive to provide innovative, affordable and cost effective solutions to educational institutions, corporations, and government institutions, you can trust us to meet your needs and expectations.</p>
-                            
-                            <div class="col-md-4 col-md-offset-4">
-                                <div class="text-center">
-                                    <a href="{{url('/contact')}}" class="btn btn-default btn-lg">Contact Us</a>
+                            <p class="text-center">Oil and Gas Stakeholders:</p>
+                            <div class="row grid-space-10">
+                                <div class="col-sm-4">
+                                    <div class="box-style-2">
+                                        <div class="icon-container default-bg">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="body">
+                                            <h2>Connect</h2>
+                                            <p> Connect with technology providers to facilitate your technology acquisition and transfer plan for projects.</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="box-style-2">
+                                        <div class="icon-container default-bg">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="body">
+                                            <h2>Encourage forei​gn investment</h2>
+                                            <p> Encourage forei​gn investment in oil and gas whilst implementing local content - make it a win-win situation</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="box-style-2">
+                                        <div class="icon-container default-bg">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="body">
+                                            <h2>Learn strategies</h2>
+                                            <p> Learn strategies to beat barriers to acquiring technology and technical skills</p>
+                                            
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                
+                            <div class="row grid-space-10">
+                                <div class="col-sm-4">
+                                    <div class="box-style-2">
+                                        <div class="icon-container default-bg">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="body">
+                                            <h2>Talk to legal experts</h2>
+                                            <p>Talk to legal experts on technology transfer agreements.</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="box-style-2">
+                                        <div class="icon-container default-bg">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="body">
+                                            <h2>Review your local content plan</h2>
+                                            <p> Review your local content plan against international standards and benchmarks.</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="box-style-2">
+                                        <div class="icon-container default-bg">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="body">
+                                            <h2>Financial Information</h2>
+                                            <p>Gain access to financial information for projects.</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row grid-space-10">
+                                <div class="col-sm-4">
+                                    <div class="box-style-2">
+                                        <div class="icon-container default-bg">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="body">
+                                            <h2>Forge business relationship</h2>
+                                            <p>Meet one-on-one with international financial institutions to forge business relationship</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="box-style-2">
+                                        <div class="icon-container default-bg">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="body">
+                                            <h2>Exchange ideas</h2>
+                                            <p> Exchange ideas with Local Content stakeholders from Africa, Caribbean, South America, Middle East, and Asia </p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="box-style-2">
+                                        <div class="icon-container default-bg">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="body">
+                                            <h2>Evaluate</h2>
+                                            <p>Evaluate your current local content policies from lessons learned as shared by decision makers from Middle East, Asia and Africa  </p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row grid-space-10">
+                                <div class="col-sm-4">
+                                    <div class="box-style-2">
+                                        <div class="icon-container default-bg">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="body">
+                                            <h2>Overcome Challenges</h2>
+                                            <p>Learn how to overcome the challenges of acquiring oil and gas technology </p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="box-style-2">
+                                        <div class="icon-container default-bg">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="body">
+                                            <h2>legal and policy framework</h2>
+                                            <p> Design your legal and policy framework to avoid pitfalls of implementation and unrealistic goals</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- section end -->
+            <!-- page-top end -->
+
+            <!-- page-top start-->
+
+            <!-- main-container start -->
+            <!-- ================ -->
+            <section class="main-container">
+
+                <div class="container">
+                    <div class="row">
+
+                        <!-- main start -->
+                        <!-- ================ -->
+                        <div class="main col-md-10 col-md-offset-1">
+
+                            <!-- tabs start -->
+                            <div class="tabs-style-2">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="active"><a href="#h2tab1" role="tab" data-toggle="tab"><i class="fa fa-thumbs-up pr-5"></i>Why Attend</a></li>
+                                    <li><a href="#h2tab2" role="tab" data-toggle="tab"><i class="fa fa-handshake-o pr-5"></i>Sponsors</a></li>
+                                    <li><a href="#h2tab3" role="tab" data-toggle="tab"><i class="fa fa-users pr-5"></i>Speakers Panel</a></li>
+                                    <li><a href="#h2tab4" role="tab" data-toggle="tab"><i class="fa fa-check pr-5"></i>Click to Register</a></li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div class="tab-pane fade in active" id="h2tab1">
+                                        <h1 class="text-center title">Why Attend</h1>
+                                        <div class="space-bottom"></div>
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                <ul class="list-icons">
+                                                    <li><i class="icon-check pr-10"></i> Share international experience on local content</li>
+                                                    <li><i class="icon-check pr-10"></i> Speed networking! - Get exposure to new markets and increase your pool of international contacts</li>
+                                                    <li><i class="icon-check pr-10"></i> Free online access to post conference white paper and all materials</li>
+                                                    <li><i class="icon-check pr-10"></i> Lunch, coffee breaks, cocktails and evening entertainment/networking</li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="col-md-12 text-center">
+                                            <a href="page-services.html" class="btn btn-default">Learn More</a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="tab-pane fade" id="h2tab2">
+                                        <h1 class="text-center title">Sponsorship Opportunities</h1>
+                                        <div class="space-bottom"></div>
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                <ul class="list-icons">
+                                                    <li><i class="icon-check pr-10"></i>Adverts</li>
+                                                    <li><i class="icon-check pr-10"></i>Lunch</li>
+                                                    <li><i class="icon-check pr-10"></i>Coffee</li>
+                                                    <li><i class="icon-check pr-10"></i>Banners</li>
+                                                    <li><i class="icon-check pr-10"></i>Evening entertainment</li>
+                                                    <li><i class="icon-check pr-10"></i>Cocktail</li>
+                                                    <li><i class="icon-check pr-10"></i>Gifts</li>
+                                                    <li><i class="icon-check pr-10"></i>Summit bags</li>
+                                                </ul>
+                                            </div>
+                                        </div>  
+                                        <div class="col-md-12 text-center">
+                                            <a href=" {{url('contact')}} " class="btn btn-default">CONTACT US</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="h2tab3">
+                                        <h1 class="text-center title">Interested in becoming a speaker? </h1>
+                                        <div class="space-bottom"></div>
+                                        <div class="row">
+                                            
+                                            <div class="col-md-12 text-center">
+                                                <p>Email info@marakconsulting.com with the relevant topic.</p>
+                                                <p> Spaces are limited and not all topics proffered may be accepted Speakers and expert panels  are expected from IOCs, ISPs, NOC’s, government policy makers, local companies, and law makers.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 text-center">
+                                            <a href=" {{url('contact')}} " class="btn btn-default">CONTACT US</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="h2tab4">
+                                        <h1 class="text-center title">Documented</h1>
+                                        <div class="space-bottom"></div>
+                                        <div class="row">
+                                            
+                                            <div class="col-md-12 text-center">
+                                                <p>Register now to secure your space. Tickets are limited and selling fast. Group Registration of more than 5 delegates: please email </p>
+                                                <p>info@marakconsulting.com for more discounts offers</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 text-center">
+                                            <a href=" {{url('contact')}} " class="btn btn-default">CONTACT US</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- tabs end -->
+
+ 
 
 
-           
+                        </div>
+                        <!-- main end -->
 
-            @include('includes.footer')
 
-            @include('includes.subfooter')
+                    </div>
+                </div>
+            </section>
+            <!-- main-container end -->
+
+
+            
+
+    @include('includes.footer')
+
+    @include('includes.subfooter')
+
 @endsection

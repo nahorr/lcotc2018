@@ -6,7 +6,7 @@
 <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>Nahorr | Home</title>
+        <title>MARAK ALLIANCE LLC</title>
         <meta name="description" content="Nahorr Analytics - a spftware and data analytics company">
         <meta name="author" content="nahorr.com">
 
@@ -40,7 +40,7 @@
         <link href="{{asset('idea/css/style.css')}}" rel="stylesheet">
 
         <!-- Color Scheme (In order to change the color scheme, replace the red.css with the color scheme that you prefer)-->
-        <link href="{{asset('idea/css/skins/yellow.css')}}" rel="stylesheet">
+        <link href="{{asset('idea/css/skins/dark.css')}}" rel="stylesheet">
 
         <!-- Custom css -->
         <link href="{{asset('idea/css/custom.css')}}" rel="stylesheet">
