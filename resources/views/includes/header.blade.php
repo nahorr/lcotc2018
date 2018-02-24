@@ -103,13 +103,13 @@
                                                         <a href="{{url('/contact')}}">Contact</a>
                                                     </li>
                                                     <li class="">
-                                                        <a href="{{url('/contact')}}">Registration</a>
+                                                        <a href="{{url('/registration')}}">Registration</a>
                                                     </li>
                                                     <li class="">
-                                                        <a href="{{url('/contact')}}">Agenda</a>
+                                                        <a href="{{url('/agenda')}}">Agenda</a>
                                                     </li>
                                                     <li class="">
-                                                        <a href="{{url('/contact')}}">Speakers</a>
+                                                        <a href="{{url('/speakers')}}">Speakers</a>
                                                     </li>
                                                 </ul>
                                             </div>

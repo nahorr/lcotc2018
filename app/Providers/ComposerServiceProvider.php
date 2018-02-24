@@ -18,6 +18,9 @@ class ComposerServiceProvider extends ServiceProvider
             [
                 'welcome',
                 'about',
+                'registration',
+                'agenda',
+                'speakers',
                 'careers',
                 'contact',
                 'products-services',

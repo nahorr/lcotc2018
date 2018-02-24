@@ -35,6 +35,21 @@ class HomePublicController extends Controller
     	return view('about');
     }
 
+     public function registration()
+    {
+        return view('registration');
+    }
+
+    public function agenda()
+    {
+        return view('agenda');
+    }
+
+     public function speakers()
+    {
+        return view('speakers');
+    }
+
      public function productsServices()
     {
     	return view('products-services');
