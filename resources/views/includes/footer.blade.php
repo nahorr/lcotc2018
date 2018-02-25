@@ -37,9 +37,9 @@
                                             <li><a href="{{url('/')}}">Home</a></li>
                                             <li><a href="{{url('/about')}}">About</a></li>
                                             <li><a href="{{url('/contact')}}">Contact</a></li>
-                                            <li><a href="{{url('/products-services')}}">Registration</a></li>
-                                            <li><a href="{{url('/products-services')}}">Agenda</a></li>
-                                            <li><a href="{{url('/careers')}}">Speakers</a></li>
+                                            <li><a href="{{url('/registration')}}">Registration</a></li>
+                                            <li><a href="{{url('/agenda')}}">Agenda</a></li>
+                                            <li><a href="{{url('/speakers')}}">Speakers</a></li>
                                             
                                         </ul>
                                     </nav>

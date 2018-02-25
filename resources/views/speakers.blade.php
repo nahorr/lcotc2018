@@ -17,62 +17,37 @@
 				</div>
 			</div>
 			<!-- banner end -->
+			<!-- section start -->
+            <!-- ================ -->
+            <div class="section clearfix object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="300">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
 
-			<!-- banner start -->
-			<!-- ================ -->
-			
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<img src="images/section-image-5.png" alt="" class="object-non-visible" data-animation-effect="fadeInLeft" data-effect-delay="0">
-						</div>						
-						<div class="col-md-6">
-							<br>
-							<h1 class="object-non-visible" data-animation-effect="fadeInRight" data-effect-delay="200">IDea - Bootstrap Theme</h1>
-							<br>
-							<div class="box-style-3 object-non-visible" data-animation-effect="fadeInRight" data-effect-delay="400">
-								<div class="icon-container default-bg">
-									<i class="fa fa-laptop"></i>
-								</div>
-								<div class="body">
-									<h2>Very Flexible</h2>
-									<p>Iure sequi unde hic. Sapiente quaerat labore inventore veritatis cumque.</p>
-									<a href="page-services.html" class="link"><span>Read More</span></a>
-								</div>
-							</div>
-							<div class="box-style-3 object-non-visible" data-animation-effect="fadeInRight" data-effect-delay="600">
-								<div class="icon-container default-bg">
-									<i class="fa fa-sitemap"></i>
-								</div>
-								<div class="body">
-									<h2>Latest Technologies</h2>
-									<p>Inventore dolores aut laboriosam cum consequuntur delectus sequi! Eum est.</p>
-									<a href="page-services.html" class="link"><span>Read More</span></a>
-								</div>
-							</div>
-							<div class="box-style-3 object-non-visible" data-animation-effect="fadeInRight" data-effect-delay="800">
-								<div class="icon-container default-bg">
-									<i class="fa fa-bicycle"></i>
-								</div>
-								<div class="body">
-									<h2>Easy to Use</h2>
-									<p>Inventore dolores aut laboriosam cum consequuntur delectus sequi! Eum est.</p>
-									<a href="page-services.html" class="link"><span>Read More</span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			
-			<!-- banner end -->
+                            <h1 class="text-center">CONFERENCE KEYNOTE SPEAKER</h1>
+                            <div class="separator"></div>
+                            <p class="lead text-center">H.E. Dr. Goodluck Jonathan<br> Former President - Federal Repulic of Nigeria</p>
+                            <!-- Tabs Top -->
+                            <div class="text-center">
+                                <img src="{{asset('idea/images/section-image-11.png')}}" alt="localcontentotc2018" data-tab-animation-effect="fadeInRightSmall">
+                                
+                                <div class="space"></div>
+                            </div>
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- section end -->
 
 			<!-- section start -->
 			<!-- ================ -->
 			<div class="section white-bg clearfix">
 				<div class="container">
 
-					<h1>SPEAKERS</h1>
-					<div class="separator-2"></div>
+					<h1 class="text-center">SPEAKERS</h1>
+					<div class="separator"></div>
 
 					<div class="row grid-space-20">
 

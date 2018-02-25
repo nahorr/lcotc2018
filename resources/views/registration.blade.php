@@ -4,26 +4,14 @@
 
             @include('includes.header')
 
-            <!-- banner start -->
-			<!-- ================ -->
-			<div class="banner">
-				<div class="fixed-image section light-translucent-bg" style="background-image:url('idea/images/about.jpg');">
-					<div class="container">
-						<div class="space-top"></div>
-						<h1>Registration</h1>
-						<div class="separator-2"></div>
-					
-					</div>
-				</div>
-			</div>
-			<!-- banner end -->
-
 			<!-- main-container start -->
 			<!-- ================ -->
 			<section class="main-container">
 
 				<div class="container">
 					<div class="row">
+
+						<div id="eventzilla-iframe"></div><script type='text/javascript' src='https://d2poexpdc5y9vj.cloudfront.net/public/js/eventzilla-embedd.js?eventid=2138920154'></script>
 
 						<!-- main start -->
 						<!-- ================ -->
