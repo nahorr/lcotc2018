@@ -21,12 +21,13 @@ Route::get('/registration', 'HomePublicController@registration');
 Route::get('/agenda', 'HomePublicController@agenda');
 Route::get('/speakers', 'HomePublicController@speakers');
 
+/*
 Route::get('/products-services', 'HomePublicController@productsServices');
 Route::get('/careers', 'HomePublicController@careers');
 Route::get('/careers/jobdetails/{job}', 'HomePublicController@jobDetails');
 Route::get('/careers/jobapplicationform/{job}', 'HomePublicController@jobApplicationForm');
 Route::post('/careers/postjobapplicationform', 'HomePublicController@postJobApplicationForm');
-
+*/
 
 
 //Auth routes

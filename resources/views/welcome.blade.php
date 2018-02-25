@@ -272,7 +272,7 @@
                                             
                                         </div>
                                         <div class="col-md-12 text-center">
-                                            <a href="page-services.html" class="btn btn-default">Learn More</a>
+                                            <a href="http://events.eventzilla.net/e/local-content-conference-houston-2018-2138920154" target="_blank" class="btn btn-default">View</a>
                                         </div>
                                     </div>
                                     
@@ -314,7 +314,7 @@
                                     </div>
 
                                     <div class="tab-pane fade" id="h2tab4">
-                                        <h1 class="text-center title">Documented</h1>
+                                        <h1 class="text-center title">Register</h1>
                                         <div class="space-bottom"></div>
                                         <div class="row">
                                             
@@ -324,7 +324,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-12 text-center">
-                                            <a href=" {{url('contact')}} " class="btn btn-default">CONTACT US</a>
+                                            <a href="http://events.eventzilla.net/e/local-content-conference-houston-2018-2138920154" target="_blank" class="btn btn-default">Register</a>
                                         </div>
                                     </div>
                                 </div>
