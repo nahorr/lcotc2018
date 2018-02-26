@@ -45,7 +45,7 @@ class ContactFormSubmitted extends Notification
         
         return (new MailMessage)
                     ->line('Hello. '.$this->contact_form_notification)
-                    ->action('Local Content OTC 2018', 'https://localcontentotc2018.com/login')
+                    ->action('View Message', 'https://localcontentotc2018.com/login')
                     ->line('Please use the link above to login and view the message.');
     }
 

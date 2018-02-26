@@ -225,6 +225,18 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-sm-4 invisible">
+                                    <div class="box-style-2">
+                                        <div class="icon-container default-bg">
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <div class="body">
+                                            <h2>legal and policy framework</h2>
+                                            <p> Design your legal and policy framework to avoid pitfalls of implementation and unrealistic goals</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
                                 
                         </div>
                     </div>
