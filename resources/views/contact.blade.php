@@ -25,7 +25,7 @@
 									<div class="form-group has-feedback">
 										<label for="inputName" class="col-sm-3 control-label">First Name <span class="text-danger small">*</span></label>
 										<div class="col-sm-8">
-											<input type="text" name="first_name" class="form-control" id="inputName" placeholder="Fisrt Name" required>
+											<input type="text" name="first_name" class="form-control" id="inputName" placeholder="First Name" required>
 											<i class="fa fa-user form-control-feedback"></i>
 										</div>
 									</div>

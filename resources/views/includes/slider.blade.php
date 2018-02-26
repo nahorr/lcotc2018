@@ -53,7 +53,7 @@
                                     data-speed="600"
                                     data-start="0"
                                     data-end="10000"
-                                    data-endspeed="600"><a href="page-services.html" class="btn btn-default btn-lg">Tell Me More <i class="fa fa-angle-double-right pl-10"></i></a>
+                                    data-endspeed="600"><a href="{{url('/agenda')}}" class="btn btn-default btn-lg">Tell Me More <i class="fa fa-angle-double-right pl-10"></i></a>
                                 </div>
 
                                 </li>
@@ -113,7 +113,7 @@
                                     data-speed="600"
                                     data-start="0"
                                     data-end="10000"
-                                    data-endspeed="600"><a href="page-services.html" class="btn btn-default btn-lg">Tell Me More <i class="fa fa-angle-double-right pl-10"></i></a>
+                                    data-endspeed="600"><a href="{{url('/speakers')}}" class="btn btn-default btn-lg">Tell Me More <i class="fa fa-angle-double-right pl-10"></i></a>
                                 </div>
 
                                 </li>

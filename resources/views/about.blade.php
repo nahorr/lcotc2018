@@ -66,7 +66,7 @@
 
 									<p>It is clear that in recent years a more coordinated effort has emerged, in some climes, between MNC, local business associations, government regulators and international NGO’s, aimed at proposing “best practices” in the implementation of local content policies (voluntarily or legislated). The one-billion-dollar question is: what is the impact so far?</p>
 									
-									<a class="btn btn-lg btn-default" href="{{asset('/contact')}}"><i class="fa fa-users pr-10"></i> Contact Us</a>
+									<a class="btn btn-lg btn-default" href="{{url('/contact')}}"><i class="fa fa-users pr-10"></i> Contact Us</a>
 								</div>
 								
 							</div>
