@@ -18,7 +18,6 @@ use App\Notifications\ApplicationSubmitted;
 use App\Notifications\ContactFormSubmitted;
 use App\User;
 use App\ContactUs;
-use Mail;
 
 class HomePublicController extends Controller
 {
@@ -181,18 +180,9 @@ class HomePublicController extends Controller
         'updated_at' => date('Y-m-d H:i:s'),
         ]);
 
-        Mail::send('contactemail',
-            array(
-               'first_name' => $request->get('first_name'),
-               'last_name' => $request->get('last_name'),
-               'email' => $request->get('email'),
-               'phone' => $request->get('phone'),
-               'message' => $request->get('message')
-            ), function($message)
-       {
-           $message->from($contact_us->email);
-           $message->to('nahorr@gmail.com', 'Admin')->subject('Contact Form-Localcontentotc');
-       });
+        $user = User::first();
+ 
+        $user->notify(new ContactFormSubmitted("A new contact form has been submitted."));
 
        flash('Your message was sent successfully. We will be contacting you soon!')->success();
       

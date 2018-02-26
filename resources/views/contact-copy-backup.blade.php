@@ -62,10 +62,10 @@
 									</div>
 
 									<div class="form-group">
-										<div class="col-sm-offset-3 col-sm-8">
-											<div class="g-recaptcha" data-sitekey="{{env('RE_CAPTCHA_SITEKEY')}}"></div>
+											<div class="col-sm-offset-3 col-sm-8">
+												<div class="g-recaptcha" data-sitekey="{{env('RE_CAPTCHA_SITEKEY')}}"></div>
+											</div>
 										</div>
-									</div>
 
 									
 									<div class="form-group">
