@@ -1,11 +1,11 @@
 You received a message from : {{ $first_name }}
 
 <p>
-First Name: {{ {{ $first_name }} }}
+First Name: {{ $first_name }}
 </p>
 
 <p>
-Last Name: {{ {{ $last_name }} }}
+Last Name: {{ $last_name }}
 </p>
 
 <p>
