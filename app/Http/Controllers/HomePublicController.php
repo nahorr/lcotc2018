@@ -18,6 +18,10 @@ use App\Notifications\ApplicationSubmitted;
 use App\Notifications\ContactFormSubmitted;
 use App\User;
 use App\ContactUs;
+use Mail;
+
+use Illuminate\Support\Facades\Input;
+
 
 class HomePublicController extends Controller
 {
@@ -180,9 +184,34 @@ class HomePublicController extends Controller
         'updated_at' => date('Y-m-d H:i:s'),
         ]);
 
-        $user = User::first();
+        //$user = User::first();
  
-        $user->notify(new ContactFormSubmitted("A new contact form has been submitted."));
+        //$user->notify(new ContactFormSubmitted("A new contact form has been submitted."));
+
+
+        $first_name = $request->input('first_name');
+        $last_name = $request->input('last_name');
+        $email = $request->input('email');
+        $phone = $request->input('phone');
+        $user_message = $request->input('message');
+
+        Mail::send('emails.contactform', 
+            [
+                'first_name' => $first_name, 
+                'last_name' => $last_name, 
+                'email' => $email, 
+                'phone' => $phone,
+                'user_message' => $user_message
+            ], 
+
+            function ($m)
+            {
+                
+                $m->from(Input::get('email'), Input::get('first_name'));
+
+                $m->to('info@marakconsulting.com');
+
+            });
 
        flash('Your message was sent successfully. We will be contacting you soon!')->success();
       
