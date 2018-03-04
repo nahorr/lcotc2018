@@ -51,14 +51,14 @@
 											<img src="{{asset('idea/images/keynote_speaker-2.jpg')}}" alt="">
 											
 										
-										<h3>H.E. Goodluck Jonathan</h3>
+										<h3>SABIC (https://www.sabic.com/en)</h3>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<h1 class="page-title">Conference Keynote Speaker</h1>
-									<p>H.E. Goodluck  Jonathan GCFR GCON is a former President of Nigeria, having served from 2010 to 2015.</p>
-									<p>On April 22, 2010, Goodluck Jonathan, then Nigeria's Acting President, signed into law the Local Content Bill 2010, which was intended to increase participation of Nigerian companies and personnel in the oil/gas industry.</p>
-									<p>President Goodluck Jonathan is the founder and chairman of the Goodluck Jonathan Foundation. Through the Foundation, he is promoting best practice in democracy, economic transformation and peace building. </p>
+									<p>SABIC (https://www.sabic.com/en)</p>
+									<p>A global leader in the global petrochemical industry headquartered in Riyadh, Saudi Arabia.</p>
+									<p>70% of SABIC’s shares are owned by the Saudi Arabian government, with the remaining 30% publicly traded on the Saudi stock exchange - a remarkable local content success story. </p>
 									
 								</div>
 								

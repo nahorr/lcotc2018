@@ -32,7 +32,7 @@
 
                             <h1 class="text-center">CONFERENCE KEYNOTE SPEAKER</h1>
                             <div class="separator"></div>
-                            <p class="lead text-center">H.E. Dr. Goodluck Jonathan<br> Former President - Federal Repulic of Nigeria</p>
+                            <p class="lead text-center">SABIC (https://www.sabic.com/en)<br> A global leader in the global petrochemical industry headquartered in Riyadh, Saudi Arabia.</p>
                             <!-- Tabs Top -->
                             <div class="text-center">
                                 <img src="{{asset('idea/images/section-image-11.png')}}" alt="localcontentotc2018" data-tab-animation-effect="fadeInRightSmall">

@@ -91,7 +91,7 @@
                                     data-speed="600"
                                     data-start="0"
                                     data-end="10000"
-                                    data-endspeed="600">H.E. Dr. Goodluck Jonathan <br>Former President - The Federal Republic of Nigeria.                               
+                                    data-endspeed="600">SABIC <br>website - https://www.sabic.com/en.                               
                                 </div>
 
                                 <!-- LAYER NR. 2-1 -->
@@ -101,7 +101,7 @@
                                     data-speed="600"
                                     data-start="0"
                                     data-end="10000"
-                                    data-endspeed="600"><img src="{{asset('idea/images/keynote_speaker_slider.jpg')}}" alt="localcontentotc2018" data-tab-animation-effect="fadeInRightSmall">
+                                    data-endspeed="600"><img src="{{asset('no-idea/images/keynote_speaker_slider.jpg')}}" alt="localcontentotc2018" data-tab-animation-effect="fadeInRightSmall">
                                     
                                         
                                 </div>

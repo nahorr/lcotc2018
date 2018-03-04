@@ -26,7 +26,7 @@
 
                             <h1 class="text-center">CONFERENCE KEYNOTE SPEAKER</h1>
                             <div class="separator"></div>
-                            <p class="lead text-center">H.E. Dr. Goodluck Jonathan<br> Former President - Federal Repulic of Nigeria</p>
+                            <p class="lead text-center">SABIC (https://www.sabic.com/en)<br> A global leader in the global petrochemical industry headquartered in Riyadh, Saudi Arabia.<br>70% of SABIC’s shares are owned by the Saudi Arabian government, with the remaining 30% publicly traded on the Saudi stock exchange - a remarkable local content success story.</p>
                             <!-- Tabs Top -->
                             <div class="text-center">
                                 <img src="{{asset('idea/images/section-image-11.png')}}" alt="localcontentotc2018" data-tab-animation-effect="fadeInRightSmall">
