@@ -101,7 +101,8 @@
                                     data-speed="600"
                                     data-start="0"
                                     data-end="10000"
-                                    data-endspeed="600"><img src="{{asset('no-idea/images/keynote_speaker_slider.jpg')}}" alt="localcontentotc2018" data-tab-animation-effect="fadeInRightSmall">
+                                    data-endspeed="600">A global leader in the global petrochemical industry headquartered in Riyadh, Saudi Arabia<br>
+                                    70% of SABIC’s shares are owned by the Saudi Arabian government, with the remaining 30% publicly traded on the <br>Saudi stock exchange - a remarkable local content success story.
                                     
                                         
                                 </div>
