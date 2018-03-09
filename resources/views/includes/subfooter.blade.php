@@ -26,6 +26,7 @@
                                             <li><a href="{{url('/registration')}}">Registration</a></li>
                                             <li><a href="{{url('/agenda')}}">Agenda</a></li>
                                             <li><a href="{{url('/speaker')}}">Speakers</a></li>
+                                            <!--<li><a href="{{url('/sponsors')}}">Sponsors</a></li>-->
                                         </ul>
                                     </div>
                                 </nav>

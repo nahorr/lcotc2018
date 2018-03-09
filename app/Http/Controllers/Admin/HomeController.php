@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\JobApplication;
 use App\ContactUs;
+use App\Sponsor;
 use App\User;
 use App\Job;
 
@@ -13,17 +14,25 @@ class HomeController extends Controller
 {
     public function index()
     {
-    	$jobs = Job::get();
+    	return view('admin.home');
+    }
 
-        $job_applications = JobApplication::get();
+    public function sponsors()
+    {
+    	
+    	return view('admin.sponsors');
+    }
 
-        $contactus = ContactUs::get();
+    public function speakers()
+    {
+    	
+    	return view('admin.speakers');
+    }
 
-        $users = User::get();
-
-        //$admin_users = User::where('is_admin', '=', 1)->get();
-
-        return view('admin.home', compact('jobs', 'contactus', 'users', 'admin_users', 'job_applications'));
+    public function contactformsubmissions()
+    {
+    	
+    	return view('admin.contactformsubmissions');
     }
    
 }

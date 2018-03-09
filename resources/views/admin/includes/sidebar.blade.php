@@ -26,34 +26,41 @@
                 <h3>Dashboard</h3>
                 <ul class="nav side-menu">
               
-                <li {{{ (Request::is('home') ? 'class=active' : '') }}}>
-                    <a href="{{ url('/home') }}">
+                <li {{{ (Request::is('admin/home') ? 'class=active' : '') }}}>
+                    <a href="{{ url('/admin/home') }}">
                         <i class="fa fa-home"></i>
-                        Home
+                        Admin Home
                     </a>
                 </li>
 
-                <li {{{ (Request::is('private/profile') ? 'class=active' : '') }}}>
-                    <a href="{{ url('/private/profile') }}">
-                        <i class="fa fa-user"></i>
-                        User Profile
+                <li {{{ (Request::is('admin/sponsors') ? 'class=active' : '') }}}>
+                    <a href="{{ url('/admin/sponsors') }}">
+                        <i class="fa fa-money"></i>
+                        Sponsors
                     </a>
                 </li>
 
-                <li {{{ (Request::is('private/contactformsubmissions') ? 'class=active' : '') }}}>
-                    <a href="{{ url('/private/contactformsubmissions') }}">
+                <li {{{ (Request::is('admin/speakers') ? 'class=active' : '') }}}>
+                    <a href="{{ url('/admin/speakers') }}">
+                        <i class="fa fa-suitcase"></i>
+                        Speakers
+                    </a>
+                </li>
+
+                <li {{{ (Request::is('admin/contactformsubmissions') ? 'class=active' : '') }}}>
+                    <a href="{{ url('/admin/contactformsubmissions') }}">
                         <i class="fa fa-envelope"></i>
                         Contact Form
                     </a>
                 </li>
 
-                <li {{{ (Request::is('private/jobs') ? 'class=active' : '') }}}>
-                    <a href="{{ url('/private/jobs') }}">
-                        <i class="fa fa-suitcase"></i>
-                        Jobs
+                <li {{{ (Request::is('home') ? 'class=active' : '') }}}>
+                    <a href="{{ url('/home') }}">
+                        <i class="fa fa-user"></i>
+                        User Profile
                     </a>
                 </li>
-
+                
                 <li>
                     <a href="{{ route('logout') }}"
                       onclick="event.preventDefault();

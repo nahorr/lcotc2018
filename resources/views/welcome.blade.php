@@ -262,7 +262,7 @@
                                 <!-- Nav tabs -->
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li class="active"><a href="#h2tab1" role="tab" data-toggle="tab"><i class="fa fa-thumbs-up pr-5"></i>Why Attend</a></li>
-                                    <li><a href="#h2tab2" role="tab" data-toggle="tab"><i class="fa fa-handshake-o pr-5"></i>Sponsors</a></li>
+                                    <li><a href="#h2tab2" role="tab" data-toggle="tab"><i class="fa fa-handshake-o pr-5"></i>Sponsorship Opportunities</a></li>
                                     <li><a href="#h2tab3" role="tab" data-toggle="tab"><i class="fa fa-users pr-5"></i>Speakers Panel</a></li>
                                     <li><a href="#h2tab4" role="tab" data-toggle="tab"><i class="fa fa-check pr-5"></i>Click to Register</a></li>
                                 </ul>

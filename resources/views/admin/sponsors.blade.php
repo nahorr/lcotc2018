@@ -4,11 +4,10 @@
     @include('admin.includes.top-nav')
         <!-- page content -->
         <div class="right_col" role="main">
-          
           <!-- top tiles -->
            @include('admin.includes.top-head')
           <!-- /top tiles -->
-          
+
           <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
@@ -39,28 +38,20 @@
                           <th>Name</th>
                           <th>Email</th>
                           <th>Date Created</th>
-                          <th>Registration Code</th>
-                          <th>Is Admim</th>
+                          <th>logo</th>
                           <th>Action</th>
                         </tr>
                       </thead>
 
 
                       <tbody>
-                        @foreach($users as $key=>$user)
+                        @foreach($sponsors as $key=>$sponsor)
                         <tr>
                           
-                            <td>{{$user->name}}</td>
-                            <td>{{$user->email}}</td>
-                            <td>{{$user->created_at}}</td>
-                            <td>{{$user->registration_code}}</td>
-                            <td>
-                              @if($user->is_admin == 1)
-                                YES
-                              @else
-                                NO
-                              @endif
-                            </td>
+                            <td>{{$sponsor->name}}</td>
+                            <td>{{$sponsor->email}}</td>
+                            <td>{{$sponsor->created_at}}</td>
+                            <td>{{$sponsor->logo}}</td>
                             <td><a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a></td>
                           
                           </tr>

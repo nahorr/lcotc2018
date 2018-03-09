@@ -40,6 +40,7 @@
                                             <li><a href="{{url('/registration')}}">Registration</a></li>
                                             <li><a href="{{url('/agenda')}}">Agenda</a></li>
                                             <li><a href="{{url('/speakers')}}">Speakers</a></li>
+                                            <!--<li><a href="{{url('/sponsors')}}">Sponsors</a></li>-->
                                             
                                         </ul>
                                     </nav>

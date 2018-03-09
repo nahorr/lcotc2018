@@ -33,27 +33,6 @@
                     </a>
                 </li>
 
-                <li {{{ (Request::is('private/profile') ? 'class=active' : '') }}}>
-                    <a href="{{ url('/private/profile') }}">
-                        <i class="fa fa-user"></i>
-                        User Profile
-                    </a>
-                </li>
-
-                <li {{{ (Request::is('private/contactformsubmissions') ? 'class=active' : '') }}}>
-                    <a href="{{ url('/private/contactformsubmissions') }}">
-                        <i class="fa fa-envelope"></i>
-                        Contact Form
-                    </a>
-                </li>
-
-                <li {{{ (Request::is('private/jobs') ? 'class=active' : '') }}}>
-                    <a href="{{ url('/private/jobs') }}">
-                        <i class="fa fa-suitcase"></i>
-                        Jobs
-                    </a>
-                </li>
-
                 <li>
                     <a href="{{ route('logout') }}"
                       onclick="event.preventDefault();
