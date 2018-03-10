@@ -19,7 +19,8 @@ class PrivateComposerServiceProvider extends ServiceProvider
                 'admin/home',
                 'admin/sponsors',
                 'admin/speakers',
-                'admin/contactformsubmissions'
+                'admin/contactformsubmissions',
+                'admin/speakers/addspeaker'
             ], 
             
             'App\Http\ViewComposers\PrivateViewComposer'

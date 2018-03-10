@@ -29,6 +29,12 @@ class HomeController extends Controller
     	return view('admin.speakers');
     }
 
+    public function addSpeaker()
+    {
+
+        return view('admin.speakers.addspeaker');
+    }
+
     public function contactformsubmissions()
     {
     	

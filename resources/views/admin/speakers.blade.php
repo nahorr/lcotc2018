@@ -19,14 +19,13 @@
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
                         <ul class="dropdown-menu" role="menu">
-                          <li><a href="#">Add a user</a>
+                          <li><a href="{{route('addspeaker')}}">Add a speaker</a>
                           </li>
                           <li><a href="#">Add registration code</a>
                           </li>
                         </ul>
                       </li>
-                      <li><a class="close-link"><i class="fa fa-close"></i></a>
-                      </li>
+                      
                     </ul>
                     <div class="clearfix"></div>
                   </div>
