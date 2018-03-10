@@ -33,12 +33,14 @@
                     </a>
                 </li>
 
+                <!--
                 <li {{{ (Request::is('admin/sponsors') ? 'class=active' : '') }}}>
                     <a href="{{ url('/admin/sponsors') }}">
                         <i class="fa fa-money"></i>
                         Sponsors
                     </a>
                 </li>
+                -->
 
                 <li {{{ (Request::is('admin/speakers') ? 'class=active' : '') }}}>
                     <a href="{{ url('/admin/speakers') }}">
