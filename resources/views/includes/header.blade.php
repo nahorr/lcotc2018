@@ -11,6 +11,7 @@
                                 <ul class="social-links clearfix hidden-xs">
                                     <li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
                                     <li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a></li>
+                                    <li class="facebook"><a target="_blank" href="https://www.facebook.com/localcontentotc2018/"><i class="fa fa-facebook"></i></a></li>
                                 </ul>
                             </div>
                             <!-- header-top-first end -->

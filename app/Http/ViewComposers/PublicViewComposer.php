@@ -4,6 +4,7 @@ namespace App\Http\ViewComposers;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 use App\Repositories\UserRepository;
+use Illuminate\Support\Facades\Input;
 
 use Carbon\Carbon;
 use App\Job;

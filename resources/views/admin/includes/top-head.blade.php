@@ -21,7 +21,7 @@
                 <div class="tile-stats">
                   <div class="icon"><i class="fa fa-suitcase" style="color:#F3BB45;"></i></div>
                   <div class="count">{{@$speakers->count()}}</div>
-                  <h3>Admin Users</h3>
+                  <h3>Speakers</h3>
                   <p>There are a total of {{@$speakers->count()}} speakers</p>
                 </div>
               </div>

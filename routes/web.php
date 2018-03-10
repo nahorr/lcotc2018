@@ -42,12 +42,12 @@ Route::group(['middleware' => 'admin'], function () {
     Route::get('/admin/home', 'Admin\HomeController@index');
     Route::get('/admin/sponsors', 'Admin\HomeController@sponsors');
     
-    Route::get('/admin/speakers', 'Admin\HomeController@speakers');
+    Route::get('/admin/speakers', 'Admin\HomeController@speakers')->name('speakers');
     Route::get('/admin/speakers/addspeaker', 'Admin\HomeController@addSpeaker')->name('addspeaker');
     Route::post('/admin/speakers/postaddspeaker', 'Admin\HomeController@postAddSpeaker');
-    Route::get('/admin/speakers/editspeaker/{speaker}', 'Admin\HomeController@editSpeaker');
-    Route::post('/admin/posteditspeaker/{speaker}', 'Admin\HomeController@postEditSpeaker');
-    Route::get('/admin/deletespeaker/{speaker}', 'Admin\HomeController@deleteSpeaker');
+    Route::get('/admin/speakers/editspeaker/{speaker}', 'Admin\HomeController@editSpeaker')->name('editspeaker');
+    Route::post('/admin/speakers/posteditspeaker/{speaker}', 'Admin\HomeController@postEditSpeaker');
+    Route::get('/admin/deletespeaker/{speaker}', 'Admin\HomeController@deleteSpeaker')->name('deletespeaker');
 
     Route::get('/admin/contactformsubmissions', 'Admin\HomeController@contactformsubmissions')->name('contactformsubmissions');
 

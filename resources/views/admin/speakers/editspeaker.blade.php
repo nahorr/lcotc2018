@@ -10,7 +10,7 @@
 
           <div class="x_panel">
             <div class="x_title">
-              <h2>Add New Speaker <small></small></h2>
+              <h2>Editing Speaker - {{$speaker->fullname}} <small></small></h2>
               <ul class="nav navbar-right panel_toolbox">
                 <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                 </li>
@@ -33,52 +33,52 @@
             <div class="col-md-6  col-md-push-3">
 
               <!-- start form for validation -->
-              <form id="add-speaker" class="form-group" action="{{url('/admin/speakers/postaddspeaker')}}" method="POST" enctype="multipart/form-data">
+              <form id="edit-speaker" class="form-group" action="{{ url('/admin/speakers/posteditspeaker', [$speaker->id]) }}" method="POST" enctype="multipart/form-data">
                 {{csrf_field()}}
                 
                 <div class="form-group>">
                   <label for="fullname">Full Name * :</label>
-                  <input type="text" id="fullname"  name="fullname" class="form-control" name="fullname" required />
+                  <input type="text" id="fullname"  name="fullname" class="form-control" value="{{$speaker->fullname}}" required />
                 </div>
                 <br>
 
                 <div class="form-group>">
                   <label for="email">Email * :</label>
-                  <input type="email" id="email" name="email" class="form-control" name="email" required />
+                  <input type="email" id="email" name="email" class="form-control" value="{{$speaker->email}}" required />
                 </div>
                 <br>
 
                 <div class="form-group>">
                   <label for="message">Content 1 (please leave empty if no content to add,, 150 max) :</label>
-                  <textarea id="content_1" class="form-control" name="content_1"></textarea>
+                  <textarea id="content_1" class="form-control" name="content_1">{{$speaker->content_1}}</textarea>
                 </div>
                 <br>
 
                  <div class="form-group>">
                   <label for="message">Content 2 (please leave empty if no content to add,, 150 max) :</label>
-                  <textarea id="content_1" class="form-control" name="content_2"></textarea>
+                  <textarea id="content_1" class="form-control" name="content_2">{{$speaker->content_2}}</textarea>
                 </div>
                 <br>
 
                  <div class="form-group>">
                   <label for="message">Content 3 (please leave empty if no content to add,, 150 max) :</label>
-                  <textarea id="content_1" class="form-control" name="content_3"></textarea>
+                  <textarea id="content_1" class="form-control" name="content_3">{{$speaker->content_3}}</textarea>
                 </div>
                 <br>
 
                  <div class="form-group>">
                   <label for="message">Content 4 (please leave empty if no content to add,, 150 max) :</label>
-                  <textarea id="content_1" class="form-control" name="paper"></textarea>
+                  <textarea id="content_1" class="form-control" name="paper">{{$speaker->paper}}</textarea>
                 </div>
                 <br>
 
                 <div class="form-group">
-                   <label for="exampleFormControlFile1">Upload Speaker picture - jpg and png formats only</label>
+                   <label for="exampleFormControlFile1">Upload Speaker picture again - jpg and png formats only</label>
                    <input type="file" name="picture" class="form-control-file" id="exampleFormControlFile1">
                 </div>
 
                 <br/>
-                <button type="submit" class="btn btn-primary">Add Speaker</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
 
               </form>
               <!-- end form for validations -->

@@ -15,13 +15,14 @@ class CreateSpeakersTable extends Migration
     {
         Schema::create('speakers', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
-            $table->string('email');
-            $table->string('picture');
-            $table->string('content-1');
-            $table->string('content-2');
-            $table->string('content-3');
-            $table->string('paper');
+            $table->string('fullname');
+            $table->string('email')->nullable();
+            $table->string('picture')->nullable();
+            $table->string('content_1')->nullable();
+            $table->string('content_2')->nullable();
+            $table->string('content_3')->nullable();
+            $table->string('paper')->nullable();
+            $table->boolean('is_keynote_speaker')->default(false);
             $table->timestamps();
         });
     }

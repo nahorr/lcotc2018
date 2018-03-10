@@ -36,26 +36,33 @@
                         <tr>
                           <th>Name</th>
                           <th>Email</th>
-                          <th>Date Created</th>
-                          <th>picture</th>
                           <th>Content 1</th>
                           <th>Content 2</th>
                           <th>Content 3</th>
-                          <th>Content 4</th>
+                          <th>paper</th>
+                          <th>picture</th>
+                          <th>Date Created</th>
                           <th>Action</th>
                         </tr>
                       </thead>
 
 
                       <tbody>
-                        @foreach($sponsors as $key=>$sponsor)
+                        @foreach($speakers as $key=>$speaker)
                         <tr>
                           
-                            <td>{{$sponsor->name}}</td>
-                            <td>{{$sponsor->email}}</td>
-                            <td>{{$sponsor->created_at}}</td>
-                            <td>{{$sponsor->logo}}</td>
-                            <td><a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a></td>
+                            <td>{{$speaker->fullname}}</td>
+                            <td>{{$speaker->email}}</td>
+                            <td>{{$speaker->content_1}}</td>
+                            <td>{{$speaker->content_2}}</td>
+                            <td>{{$speaker->content_3}}</td>
+                            <td>{{$speaker->paper}}</td>
+                            <td>{{$speaker->picture}}</td>
+                            <td>{{$speaker->created_at}}</td>
+                            <td>
+                              <a href="{{ route('editspeaker', [$speaker->id]) }}" class="btn btn-primary btn-xs"><i class="fa fa-trash-o"></i>Edit </a>
+                              <a href="{{ route('deletespeaker', [$speaker->id]) }}" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
+                            </td>
                           
                           </tr>
                         @endforeach

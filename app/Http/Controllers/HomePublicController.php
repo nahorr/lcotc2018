@@ -19,6 +19,7 @@ use App\Notifications\ContactFormSubmitted;
 use App\User;
 use App\ContactUs;
 use Mail;
+use App\Speaker;
 
 use Illuminate\Support\Facades\Input;
 
@@ -51,7 +52,9 @@ class HomePublicController extends Controller
 
      public function speakers()
     {
-        return view('speakers');
+        $event_speakers = Speaker::all();
+
+        return view('speakers', compact('event_speakers'));
     }
 
      public function productsServices()
