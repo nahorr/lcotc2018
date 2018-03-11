@@ -26,7 +26,7 @@
 
                             <h1 class="text-center">CONFERENCE KEYNOTE SPEAKER</h1>
                             <div class="separator"></div>
-                            <p class="lead text-center">SABIC (https://www.sabic.com/en)<br> A global leader in the global petrochemical industry headquartered in Riyadh, Saudi Arabia.<br>70% of SABIC’s shares are owned by the Saudi Arabian government, with the remaining 30% publicly traded on the Saudi stock exchange - a remarkable local content success story.</p>
+                            <p class="lead text-center"><strong>Fuad Mosa (MBA, MSc)<br> VP, Local Content & Bus. Development Unit, SABIC</strong><br>Fuad Mosa is the Vice President of SABIC’s Local Content & business development Unit – an arm of the company created to develop local content in the Kingdom according to KSA 2030 Vision. He holds a Bachelor’s Degree in Chemical Engineering from KFUPM in Dhahran, a Master’s Degree in Chemical Engineering from KSU in Riyadh and an MBA degree from Thunderbird School of Management in Arizona, USA.</p><p class="lead text-center">He has over 20 years of experience in multiple fields related to the petrochemical industry. He has been assigned to several roles within SABIC including Operations, Research, Technology and Business. He contributed in more than 30 filed patents through his career. He serves as board member at many companies, Centers and institutes. Before being appointed to his current role with the Local Content & business development Unit, he was General Manager of SABIC Global Chemical Technologies.</p>
                             <!-- Tabs Top -->
                             <div class="text-center">
                                 <img src="{{asset('idea/images/section-image-11.png')}}" alt="localcontentotc2018" data-tab-animation-effect="fadeInRightSmall">
@@ -50,6 +50,28 @@
 					<div class="separator"></div>
 
 					<div class="row grid-space-20">
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="https://localcontentotc2018.com/idea/images/fred_agbedi.jpg" alt="">
+									<div class="overlay">
+										<ul class="social-links clearfix">
+											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="image-box-body">
+									<h3 class="title"> Omar Mitha</h3>
+									<small> Keynote Speaker (Gas session) </small>
+									<div class="separator-2"></div>
+									<small>CEO/Chairman of ENH, National Oil Company, Republic of Mozambique</small>
+									
+								</div>
+							</div>
+						</div>
 
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
@@ -192,6 +214,114 @@
 									<div class="separator-2"></div>
 									<h3 class="title"></h3>
 									<small>Local Content Policies Framework in MENA, Latin America and East Africa (Conference Adviser)</small>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="https://localcontentotc2018.com/idea/images/andrea_moreno.jpg" alt="">
+									<div class="overlay">
+										<ul class="social-links clearfix">
+											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Victor Tivane</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>Local Content Director at ENH, National Oil Company, Republic of Mozambique</small>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="https://localcontentotc2018.com/idea/images/rogger_tissot.jpg" alt="">
+									<div class="overlay">
+										<ul class="social-links clearfix">
+											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Gosia Nowakowska-Miller</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>a Local Supplier Development and Community Investment Specialist for International Finance Corporation (IFC) working on enhancing local benefits of the oil, gas and mining sector investments IFC makes around the world.</small>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="https://localcontentotc2018.com/idea/images/andrea_moreno.jpg" alt="">
+									<div class="overlay">
+										<ul class="social-links clearfix">
+											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Jeff Geipel</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>Managing Director of Mining Shared Value, Engineers Without Borders Canada</small>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="https://localcontentotc2018.com/idea/images/rogger_tissot.jpg" alt="">
+									<div class="overlay">
+										<ul class="social-links clearfix">
+											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Luís Miranda</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>Director Company N Miranda Alliance Business Development LLC</small>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="https://localcontentotc2018.com/idea/images/rogger_tissot.jpg" alt="">
+									<div class="overlay">
+										<ul class="social-links clearfix">
+											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Hon. Ekon Emmanuel</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>Chairman, Gas Committee, Nigerian House of Rep</small>
+									
 								</div>
 							</div>
 						</div>
