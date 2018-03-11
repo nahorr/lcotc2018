@@ -50,28 +50,152 @@
 					<div class="separator"></div>
 
 					<div class="row grid-space-20">
-						@foreach($event_speakers as $speaker)
 
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="{{ asset('/eventspeakers/images/'.$speaker->picture) }}" alt="">
-									
+									<img src="https://localcontentotc2018.com/idea/images/michael_hackenbruch.jpg" alt="">
+									<div class="overlay">
+										<ul class="social-links clearfix">
+											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+										</ul>
+									</div>
 								</div>
 								<div class="image-box-body">
-									<h3 class="title">{{$speaker->fullname}}</h3>
+									<h3 class="title">Michael Hackenbruch</h3>
+									<small>Conference Adviser</small>
+									<div class="separator-2"></div>
+									<small>Advisor Local Content / Sustainable Value Chains / Business Development Strategies</small>
+									<div class="separator-2"></div>
+									<h3 class="title">Paper:</h3>
+									<small>Local Content and Procurement Requirements in Oil and Gas Contracts: Regional trends in the Middle East and North Africa</small>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="https://localcontentotc2018.com/idea/images/fred_agbedi.jpg" alt="">
+									<div class="overlay">
+										<ul class="social-links clearfix">
+											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="image-box-body">
+									<h3 class="title"> Hon. Fred Agbedi</h3>
 									<small>Speaker</small>
 									<div class="separator-2"></div>
-									<p><small>{{$speaker->content_1}}</small></p>
-									<p><small>{{$speaker->content_2}}</small></p>
-									<p><small>{{$speaker->content_3}}</small></p>
-									<p><small>{{$speaker->paper}}</small></p>
-									
+									<small>House Chairman, Committee on Gas, Nigerian National Assembly</small>
+									<div class="separator-2"></div>
+									<h3 class="title"></h3>
+									<small>Local Content Law Implementation - Gas</small>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="https://localcontentotc2018.com/idea/images/willy_olsen.jpg" alt="">
+									<div class="overlay">
+										<ul class="social-links clearfix">
+											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">  Willy Olsen</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>Senior Advisor, INTSOK</small>
+									<div class="separator-2"></div>
+									<h3 class="title"></h3>
+									<small>Local Content Strategy - Perspective of Norway</small>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="https://localcontentotc2018.com/idea/images/damilola_olawuyi.jpg" alt="">
+									<div class="overlay">
+										<ul class="social-links clearfix">
+											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Damilola S. Olawuyi</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>Professor of Energy and Environmental Law | HBKU Law School, Qatar Foundation</small>
+									<div class="separator-2"></div>
+									<h3 class="title"></h3>
+									<small>Analysis of Local Content Policies in MENA</small>
+									<div class="separator-2"></div>
+									<small>Profile at:<a href="https://www.damilolaolawuyi.com" target="_blank"> www.damilolaolawuyi.com</a> </small>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="https://localcontentotc2018.com/idea/images/andrea_moreno.jpg" alt="">
+									<div class="overlay">
+										<ul class="social-links clearfix">
+											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Andrea Moreno</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>Chief Compliance Officer and Local Content Expert</small>
+									<div class="separator-2"></div>
+									<h3 class="title"></h3>
+									<small> Grupo Mieres Angola Lda The Gate to Angola Business</small>
+									<div class="separator-2"></div>
+									<small><a href="https://www.grupomieres.com" target="_blank"> www.grupomieres.com</a></small>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="https://localcontentotc2018.com/idea/images/rogger_tissot.jpg" alt="">
+									<div class="overlay">
+										<ul class="social-links clearfix">
+											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Rogger Tissot</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>Senior Consultant Rene Roger Tissot. <br> International Local Content Consultant </small>
+									<div class="separator-2"></div>
+									<h3 class="title"></h3>
+									<small>Local Content Policies Framework in MENA, Latin America and East Africa (Conference Adviser)</small>
 								</div>
 							</div>
 						</div>
 						
-						@endforeach
 					</div>
 					<div class="space"></div>
 				</div>
