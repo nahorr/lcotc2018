@@ -96,7 +96,7 @@ class HomeController extends Controller
             'content_2' => 'max: 150',
             'content_3' => 'max: 150',
             'paper' => 'max: 150',
-            'picture' => 'mimes:jpg,jpeg,bmp,png|max:10000',
+            'picture' => 'required|mimes:jpg,jpeg,bmp,png|max:10000',
             
         ]);
         
@@ -115,7 +115,7 @@ class HomeController extends Controller
             $picture->move($destinationPath,$filename);
             
         } else {
-            $filename = $speaker->picture;
+            $filename = $request->picture;
         }
         $speaker_edit = Speaker::where('id', '=', $speaker->id)->first();
         
