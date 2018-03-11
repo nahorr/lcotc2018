@@ -54,14 +54,27 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="https://localcontentotc2018.com/idea/images/fred_agbedi.jpg" alt="">
-									<div class="overlay">
-										<ul class="social-links clearfix">
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-										</ul>
-									</div>
+									<img src="{{asset('idea/images/FuadMosa.jpg')}}" alt="">
+									
+								</div>
+								<div class="image-box-body">
+									<h3 class="title"> Fuad Mosa (MBA, MSc)</h3>
+									<small> Keynote Speaker</small>
+									<div class="separator-2"></div>
+									<small>VP, Local Content & Bus. Development Unit, SABIC </small>
+									<div class="separator-2"></div>
+									<small>Vice President of SABIC’s Local Content & business development Unit – an arm of the company created to develop local content in the Kingdom according to KSA 2030 Vision.</small>
+									
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="{{asset('idea/images/OmarMitha.jpg')}}" alt="">
+									
 								</div>
 								<div class="image-box-body">
 									<h3 class="title"> Omar Mitha</h3>
@@ -76,14 +89,8 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="https://localcontentotc2018.com/idea/images/michael_hackenbruch.jpg" alt="">
-									<div class="overlay">
-										<ul class="social-links clearfix">
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-										</ul>
-									</div>
+									<img src="{{asset('idea/images/michael_hackenbruch.jpg')}}" alt="">
+									
 								</div>
 								<div class="image-box-body">
 									<h3 class="title">Michael Hackenbruch</h3>
@@ -99,14 +106,8 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="https://localcontentotc2018.com/idea/images/fred_agbedi.jpg" alt="">
-									<div class="overlay">
-										<ul class="social-links clearfix">
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-										</ul>
-									</div>
+									<img src="{{asset('idea/images/fred_agbedi.jpg')}}" alt="">
+									
 								</div>
 								<div class="image-box-body">
 									<h3 class="title"> Hon. Fred Agbedi</h3>
@@ -123,14 +124,8 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="https://localcontentotc2018.com/idea/images/willy_olsen.jpg" alt="">
-									<div class="overlay">
-										<ul class="social-links clearfix">
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-										</ul>
-									</div>
+									<img src="{{asset('idea/images/willy_olsen.jpg')}}" alt="">
+									
 								</div>
 								<div class="image-box-body">
 									<h3 class="title">  Willy Olsen</h3>
@@ -146,14 +141,8 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="https://localcontentotc2018.com/idea/images/damilola_olawuyi.jpg" alt="">
-									<div class="overlay">
-										<ul class="social-links clearfix">
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-										</ul>
-									</div>
+									<img src="{{asset('idea/images/damilola_olawuyi.jpg')}}" alt="">
+									
 								</div>
 								<div class="image-box-body">
 									<h3 class="title">Damilola S. Olawuyi</h3>
@@ -172,14 +161,8 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="https://localcontentotc2018.com/idea/images/andrea_moreno.jpg" alt="">
-									<div class="overlay">
-										<ul class="social-links clearfix">
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-										</ul>
-									</div>
+									<img src="{{asset('idea/images/andrea_moreno.jpg')}}" alt="">
+									
 								</div>
 								<div class="image-box-body">
 									<h3 class="title">Andrea Moreno</h3>
@@ -197,14 +180,8 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="https://localcontentotc2018.com/idea/images/rogger_tissot.jpg" alt="">
-									<div class="overlay">
-										<ul class="social-links clearfix">
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-										</ul>
-									</div>
+									<img src="{{asset('idea/images/rogger_tissot.jpg')}}" alt="">
+									
 								</div>
 								<div class="image-box-body">
 									<h3 class="title">Rogger Tissot</h3>
@@ -221,14 +198,8 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="https://localcontentotc2018.com/idea/images/andrea_moreno.jpg" alt="">
-									<div class="overlay">
-										<ul class="social-links clearfix">
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-										</ul>
-									</div>
+									<img src="{{asset('idea/images/VictorTivane.jpg')}}" alt="">
+									
 								</div>
 								<div class="image-box-body">
 									<h3 class="title">Victor Tivane</h3>
@@ -242,14 +213,8 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="https://localcontentotc2018.com/idea/images/rogger_tissot.jpg" alt="">
-									<div class="overlay">
-										<ul class="social-links clearfix">
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-										</ul>
-									</div>
+									<img src="{{asset('idea/images/Gosiawakowska-Miller.jpg')}}" alt="">
+									
 								</div>
 								<div class="image-box-body">
 									<h3 class="title">Gosia Nowakowska-Miller</h3>
@@ -264,14 +229,8 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="https://localcontentotc2018.com/idea/images/andrea_moreno.jpg" alt="">
-									<div class="overlay">
-										<ul class="social-links clearfix">
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-										</ul>
-									</div>
+									<img src="{{asset('idea/images/JeffGeipel.jpg')}}" alt="">
+									
 								</div>
 								<div class="image-box-body">
 									<h3 class="title">Jeff Geipel</h3>
@@ -285,14 +244,8 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="https://localcontentotc2018.com/idea/images/rogger_tissot.jpg" alt="">
-									<div class="overlay">
-										<ul class="social-links clearfix">
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-										</ul>
-									</div>
+									<img src="{{asset('idea/images/LuisMiranda.jpg')}}" alt="">
+									
 								</div>
 								<div class="image-box-body">
 									<h3 class="title">Luís Miranda</h3>
@@ -307,20 +260,30 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="https://localcontentotc2018.com/idea/images/rogger_tissot.jpg" alt="">
-									<div class="overlay">
-										<ul class="social-links clearfix">
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-											<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-										</ul>
-									</div>
+									<img src="{{asset('idea/images/blank.png')}}" alt="">
+									
 								</div>
 								<div class="image-box-body">
 									<h3 class="title">Hon. Ekon Emmanuel</h3>
 									<small>Speaker</small>
 									<div class="separator-2"></div>
 									<small>Chairman, Gas Committee, Nigerian House of Rep</small>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="{{asset('idea/images/FernandoNhantumbo.jpg')}}" alt="">
+									
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Fernando Nhantumbo</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>Partner at MP Consultores Ltda</small>
 									
 								</div>
 							</div>
