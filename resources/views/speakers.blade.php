@@ -55,7 +55,7 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="{{ asset('/event_speakers/images/'.$speaker->picture) }}" alt="">
+									<img src="{{ asset('/eventspeakers/images/'.$speaker->picture) }}" alt="">
 									
 								</div>
 								<div class="image-box-body">

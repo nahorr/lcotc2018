@@ -53,7 +53,7 @@ class HomeController extends Controller
         if($request->hasFile('picture')){
             $picture = $request->file('picture');
             $filename = time() . '.' . $picture->getClientOriginalExtension();
-            $destinationPath = public_path().'/event_speakers/images/' ;
+            $destinationPath = public_path().'/eventspeakers/images/' ;
             $picture->move($destinationPath,$filename);
             
         } else {
@@ -106,7 +106,7 @@ class HomeController extends Controller
             $filename = time() . '.' . $picture->getClientOriginalExtension();
                 // Delete current image before uploading new image
                 if($speaker->picture !== null) {
-                     $file = public_path('event_speakers/images/' . $speaker->picture);
+                     $file = public_path('eventspeakers/images/' . $speaker->picture);
                     if (File::exists($file)) {
                         unlink($file);
                     }
