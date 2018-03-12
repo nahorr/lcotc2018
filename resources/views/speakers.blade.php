@@ -260,7 +260,7 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="{{asset('idea/images/blank.png')}}" alt="">
+									<img src="{{asset('idea/images/EkonEmmanuel.jpg')}}" alt="">
 									
 								</div>
 								<div class="image-box-body">
@@ -284,6 +284,102 @@
 									<small>Speaker</small>
 									<div class="separator-2"></div>
 									<small>Partner at MP Consultores Ltda</small>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="{{asset('idea/images/ChristopherSheldon.jpg')}}" alt="">
+									
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Christopher Sheldon</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>Sector Manager for Oil, Gas and Mining at World Bank Group</small>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="{{asset('idea/images/JorgeAviles.jpg')}}" alt="">
+									
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Jorge O. Aviles</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>Senior Advisor, Stakeholder Engagement / Indigenous Relations, TransAlta, Calgary, Canada</small>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="{{asset('idea/images/blank.png')}}" alt="">
+									
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Mostafa El Shazly</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>PhD, Attorney at Law, Egyptian General Petroleum Corporation</small>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="{{asset('idea/images/blank.png')}}" alt="">
+									
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Tom Deeb</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>VP, T&M Associates Inc., Georgia, Atlanta</small>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="{{asset('idea/images/blank.png')}}" alt="">
+									
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Sam Onwa</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>Country Director at Baker Hughes</small>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="{{asset('idea/images/blank.png')}}" alt="">
+									
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Marcelo Neuman</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>Associate professor and researcher at National University of General Sarmiento, Argentina</small>
 									
 								</div>
 							</div>
