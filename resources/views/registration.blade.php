@@ -22,7 +22,7 @@
                                 <p>DON'T MISS OUT. This is the only major international local content event in the oil and gas industry in 2018. You'll meet local content experts from Middle East, Europe, Asia, Africa and South America.</p>
                                 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 									<input type="hidden" name="cmd" value="_s-xclick">
-									<input type="hidden" name="hosted_button_id" value="FTSFTWTHGNXUJ">
+									<input type="hidden" name="hosted_button_id" value="{{ env('PAYPAL_FORM_VALUE') }}">
 									<input type="image" src="{{asset('idea/images/register_now.png')}}" border="0" name="submit" alt="PayPal - Register Now">
 									<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 								</form>
