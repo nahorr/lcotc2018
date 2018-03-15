@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <title>MARAK ALLIANCE LLC</title>
-        <meta name="description" content="Nahorr Analytics - a spftware and data analytics company">
+        <meta name="description" content="MARAK ALLIANCE LLC - localcontentotc2018">
         <meta name="author" content="nahorr.com">
 
         <!-- Mobile Meta -->

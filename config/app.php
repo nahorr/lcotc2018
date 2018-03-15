@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Nahorr Analytics'),
+    'name' => env('APP_NAME', 'Marak Alliance, LLC'),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://localcontentotc2018.com'),
 
     /*
     |--------------------------------------------------------------------------
