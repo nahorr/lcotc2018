@@ -11,7 +11,13 @@
 				<div class="container">
 					<div class="row">
 
-						<div id="eventzilla-iframe"></div><script type='text/javascript' src='https://d2poexpdc5y9vj.cloudfront.net/public/js/eventzilla-embedd.js?eventid=2138920154'></script>
+						<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+							{{ csrf_field() }}
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="FTSFTWTHGNXUJ">
+							<input type="image" src="{{asset('idea/images/register_now.png')}}" border="0" name="submit" alt="PayPal - Register Now">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
 
 						<!-- main start -->
 						<!-- ================ -->

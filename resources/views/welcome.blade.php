@@ -15,7 +15,7 @@
                                 <h1 class="title">UPCOMING EVENT</h1>
                                 <h2 class="title">LOCAL CONTENT CONFERENCE 2018 ON May 01 - 02 MAY, HOUSTON TEXAS</h2>
                                 <p>DON'T MISS OUT. This is the only major international local content event in the oil and gas industry in 2018. You'll meet local content experts from Middle East, Europe, Asia, Africa and South America.</p>
-                                <a href="http://events.eventzilla.net/e/local-content-conference-houston-2018-2138920154" target="_blank" class="btn btn-default contact">Register Now <i class="pl-10 fa fa-check"></i></a>
+                                <a href="https://www.paypal.com/webapps/shoppingcart?mfid=1521135931263_b868cee0c4d67&flowlogging_id=b868cee0c4d67#/checkout/shoppingCart" class="btn btn-default btn-lg">Register Now <i class="pl-10 fa fa-check"></i></a>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="text-center">
-                                        <a href="#" class="btn btn-default btn-lg">Register Now</a>
+                                        <a href="https://www.paypal.com/webapps/shoppingcart?mfid=1521135931263_b868cee0c4d67&flowlogging_id=b868cee0c4d67#/checkout/shoppingCart" class="btn btn-default btn-lg">Register Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -336,7 +336,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-12 text-center">
-                                            <a href="http://events.eventzilla.net/e/local-content-conference-houston-2018-2138920154" target="_blank" class="btn btn-default">Register</a>
+                                            <a href="https://www.paypal.com/webapps/shoppingcart?mfid=1521135931263_b868cee0c4d67&flowlogging_id=b868cee0c4d67#/checkout/shoppingCart" class="btn btn-default btn-lg">Register</a>
                                         </div>
                                     </div>
                                 </div>
