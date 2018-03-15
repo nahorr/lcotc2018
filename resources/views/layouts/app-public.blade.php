@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <title>MARAK ALLIANCE LLC</title>
         <meta name="description" content="MARAK ALLIANCE LLC - localcontentotc2018">
-        <meta name="author" content="nahorr.com">
+        <meta name="author" content="localcontentotc2018.com">
 
         <!-- Mobile Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
