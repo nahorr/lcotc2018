@@ -6,7 +6,7 @@
 
             @include('includes.slider')
 
-                        <!-- ================ -->
+            <!-- ================ -->
             <div class="page-top">
                 <div class="container">
                     <div class="row">
