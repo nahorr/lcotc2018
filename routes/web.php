@@ -20,6 +20,8 @@ Route::post('/postcontactform', 'HomePublicController@postContactForm');
 Route::get('/registration', 'HomePublicController@registration');
 Route::get('/agenda', 'HomePublicController@agenda');
 Route::get('/speakers', 'HomePublicController@speakers');
+Route::get('/sponsors', 'HomePublicController@sponsors');
+
 
 /*
 Route::get('/products-services', 'HomePublicController@productsServices');

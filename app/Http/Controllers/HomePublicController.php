@@ -57,9 +57,9 @@ class HomePublicController extends Controller
         return view('speakers', compact('event_speakers'));
     }
 
-     public function productsServices()
+     public function Sponsors()
     {
-    	return view('products-services');
+    	return view('sponsors');
     }
 
     public function careers()
