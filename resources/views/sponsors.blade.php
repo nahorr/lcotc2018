@@ -30,7 +30,7 @@
                             <p class="lead text-center">SABIC (https://www.sabic.com/en)</p>
                             <!-- Tabs Top -->
                             <div class="text-center">
-                                <img src="{{asset('idea/images/section-image-11.png')}}" alt="localcontentotc2018" data-tab-animation-effect="fadeInRightSmall">
+                                <img src="{{asset('idea/images/diamond-sponsor.png')}}" alt="localcontentotc2018" data-tab-animation-effect="fadeInRightSmall">
                             </div>
                             
                            
@@ -61,39 +61,28 @@
 								<div class="col-md-4">
 									<div class="image-box mb-20 object-non-visible" data-animation-effect="fadeInLeft" data-effect-delay="300">
 										<div class="overlay-container">
-											<img src="images/portfolio-4.jpg" alt="">
-											<a href="portfolio-item.html" class="overlay small">
-												<i class="fa fa-link"></i>
-												<span>Web Design</span>
+											<img src="{{asset('idea/images/sponsor-enh.jpg')}}" alt="">
+											<a href="http://www.enh.co.mz/" target="_blank" class="overlay small">
+												<img src="{{asset('idea/images/sponsor-enh.jpg')}}" alt="">
+												<span>ENH, NOC of the Republic of Mozambique</span>
 											</a>
 										</div>
-										<a href="portfolio-item.html" class="btn btn-light-gray btn-lg btn-block">Project Title</a>
+										<a href="portfolio-item.html" class="btn btn-light-gray btn-lg btn-block">ENH</a>
 									</div>
 								</div>
 								<div class="col-md-4">
 									<div class="image-box mb-20 object-non-visible" data-animation-effect="fadeInLeft" data-effect-delay="200">
 										<div class="overlay-container">
-											<img src="images/portfolio-5.jpg" alt="">
-											<a href="portfolio-item.html" class="overlay small">
-												<i class="fa fa-link"></i>
-												<span>Lorem Ipsum</span>
+											<img src="{{asset('idea/images/sponsor-roeson.jpg')}}" alt="">
+											<a href="#" target="_blank" class="overlay small">
+												<img src="{{asset('idea/images/sponsor-roeson.jpg')}}" alt="">
+												<span>Roeson Global Engineering Services Limited</span>
 											</a>
 										</div>
-										<a href="portfolio-item.html" class="btn btn-light-gray btn-lg btn-block">Project Title</a>
+										<a href="portfolio-item.html" class="btn btn-light-gray btn-lg btn-block">ROESON</a>
 									</div>
 								</div>
-								<div class="col-md-4">
-									<div class="image-box mb-20 object-non-visible" data-animation-effect="fadeInLeft" data-effect-delay="100">
-										<div class="overlay-container">
-											<img src="images/portfolio-6.jpg" alt="">
-											<a href="portfolio-item.html" class="overlay small">
-												<i class="fa fa-link"></i>
-												<span>Lorem Ipsum</span>
-											</a>
-										</div>
-										<a href="portfolio-item.html" class="btn btn-light-gray btn-lg btn-block">Project Title</a>
-									</div>
-								</div>
+								
 							</div>
 						</div>
 						<!-- main end -->
