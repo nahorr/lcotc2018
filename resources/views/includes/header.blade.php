@@ -111,8 +111,7 @@
                                                     <li class="">
                                                         <a href="{{url('/speakers')}}">Speakers</a>
                                                     </li>
-                                                    
-                                                     <li class="">
+                                                    <li class="">
                                                         <a href="{{url('/sponsors')}}">Sponsors</a>
                                                     </li>
                                                     
