@@ -27,10 +27,10 @@
 
                             <h1 class="text-center">DIAMOND SPONSOR</h1>
                             <div class="separator"></div>
-                            <p class="lead text-center">SABIC (https://www.sabic.com/en)</p>
+                            <p class="lead text-center"><a href="https://www.sabic.com/en" target="_blank"> SABIC (https://www.sabic.com/en)</a></p>
                             <!-- Tabs Top -->
                             <div class="text-center">
-                                <img src="{{asset('idea/images/diamond-sponsor.png')}}" alt="localcontentotc2018" data-tab-animation-effect="fadeInRightSmall">
+                                <a href="https://www.sabic.com/en" target="_blank"><img src="{{asset('idea/images/diamond-sponsor.png')}}" alt="localcontentotc2018" data-tab-animation-effect="fadeInRightSmall"></a>
                             </div>
                             
                            
@@ -67,7 +67,7 @@
 												<span>ENH, NOC of the Republic of Mozambique</span>
 											</a>
 										</div>
-										<a href="portfolio-item.html" class="btn btn-light-gray btn-lg btn-block">ENH</a>
+										<a href="http://www.enh.co.mz/" target="_blank" class="btn btn-light-gray btn-lg btn-block">ENH</a>
 									</div>
 								</div>
 								<div class="col-md-4">
@@ -79,7 +79,7 @@
 												<span>Roeson Global Engineering Services Limited</span>
 											</a>
 										</div>
-										<a href="portfolio-item.html" class="btn btn-light-gray btn-lg btn-block">ROESON</a>
+										<a href="#" target="_blank" class="btn btn-light-gray btn-lg btn-block">ROESON</a>
 									</div>
 								</div>
 								
