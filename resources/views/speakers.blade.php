@@ -220,7 +220,7 @@
 									<h3 class="title">Gosia Nowakowska-Miller</h3>
 									<small>Speaker</small>
 									<div class="separator-2"></div>
-									<small>a Local Supplier Development and Community Investment Specialist for International Finance Corporation (IFC) working on enhancing local benefits of the oil, gas and mining sector investments IFC makes around the world.</small>
+									<small> Local Supplier Development Specialist,International Finance Corporation (IFC)</small>
 									
 								</div>
 							</div>
@@ -372,7 +372,7 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
-									<img src="{{asset('idea/images/blank.png')}}" alt="">
+									<img src="{{asset('idea/images/Marcelo_Neuman.jpg')}}" alt="">
 									
 								</div>
 								<div class="image-box-body">

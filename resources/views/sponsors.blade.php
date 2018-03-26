@@ -52,7 +52,7 @@
 
 							<!-- page-title start -->
 							<!-- ================ -->
-							<h1 id="image-boxes" class="page-title">Sponsors</h1>
+							<h1 id="image-boxes" class="page-title">More Sponsors</h1>
 							
 							<!-- page-title end -->
 
