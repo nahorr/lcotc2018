@@ -376,11 +376,27 @@
 									
 								</div>
 								<div class="image-box-body">
-									<h3 class="title">Marcelo Neuman</h3>
+									<h3 class="title">Prof. Marcelo Neuman</h3>
 									<small>Speaker</small>
 									<div class="separator-2"></div>
 									<small>Associate professor and researcher at National University of General Sarmiento, Argentina</small>
 									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="{{asset('idea/images/Charles_NYIRAHUKU.jpg')}}" alt="">
+									
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Charles NYIRAHUKU (Mr.)</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>Chief Gas Policy Officer, African Natural Resources Centre (ECNR)</small>
+									<small>AFRICAN DEVELOPMENT BANK</small>
 								</div>
 							</div>
 						</div>
