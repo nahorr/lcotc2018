@@ -1,3 +1,18 @@
+            <!-- ================ -->
+            <div class="page-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="call-to-action">
+                                <h1 class="title">Opening Address will be delivered by</h1>
+                                <h2 class="title">Secretary Rick Perry, United States Secretary of Energy (representative)</h2>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- page-top end -->
             <!-- banner start -->
             <!-- ================ -->
             <div class="banner">

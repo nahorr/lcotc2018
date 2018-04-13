@@ -76,12 +76,12 @@
 					<div class="call-to-action">
 						<div class="row">
 							<div class="col-md-8">
-								<h1 class="title text-center"> <a href=" {{url('/agendafiles/Conference_Agenda.pdf')}} " target="_blank">Click here <br>View or download full agenda</a></h1>
+								<h1 class="title text-center"> <a href=" {{url('/agendafiles/Conference_Agenda_10.pdf')}} " target="_blank">Click here <br>View or download full agenda</a></h1>
 								
 							</div>
 							<div class="col-md-4">
 								<div class="text-center">
-									<a href="{{ url('/agendafiles/Conference_Agenda.pdf') }}" target="_blank" class="btn btn-white btn-lg"> Full Agenda </a>
+									<a href="{{ url('/agendafiles/Conference_Agenda_10.pdf') }}" target="_blank" class="btn btn-white btn-lg"> Full Agenda </a>
 								</div>
 							</div>
 						</div>
