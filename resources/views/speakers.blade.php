@@ -273,38 +273,7 @@
 							</div>
 						</div>
 
-						<div class="col-lg-6 col-md-12">
-							<div class="image-box team-member white-bg option-3">
-								<div class="overlay-container">
-									<img src="{{asset('idea/images/FernandoNhantumbo.jpg')}}" alt="">
-									
-								</div>
-								<div class="image-box-body">
-									<h3 class="title">Fernando Nhantumbo</h3>
-									<small>Speaker</small>
-									<div class="separator-2"></div>
-									<small>Partner at MP Consultores Ltda</small>
-									
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-6 col-md-12">
-							<div class="image-box team-member white-bg option-3">
-								<div class="overlay-container">
-									<img src="{{asset('idea/images/ChristopherSheldon.jpg')}}" alt="">
-									
-								</div>
-								<div class="image-box-body">
-									<h3 class="title">Christopher Sheldon</h3>
-									<small>Speaker</small>
-									<div class="separator-2"></div>
-									<small>Sector Manager for Oil, Gas and Mining at World Bank Group</small>
-									
-								</div>
-							</div>
-						</div>
-
+											
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
@@ -321,38 +290,7 @@
 							</div>
 						</div>
 
-						<div class="col-lg-6 col-md-12">
-							<div class="image-box team-member white-bg option-3">
-								<div class="overlay-container">
-									<img src="{{asset('idea/images/blank.png')}}" alt="">
-									
-								</div>
-								<div class="image-box-body">
-									<h3 class="title">Mostafa El Shazly</h3>
-									<small>Speaker</small>
-									<div class="separator-2"></div>
-									<small>PhD, Attorney at Law, Egyptian General Petroleum Corporation</small>
-									
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-6 col-md-12">
-							<div class="image-box team-member white-bg option-3">
-								<div class="overlay-container">
-									<img src="{{asset('idea/images/blank.png')}}" alt="">
-									
-								</div>
-								<div class="image-box-body">
-									<h3 class="title">Tom Deeb</h3>
-									<small>Speaker</small>
-									<div class="separator-2"></div>
-									<small>VP, T&M Associates Inc., Georgia, Atlanta</small>
-									
-								</div>
-							</div>
-						</div>
-
+						
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">

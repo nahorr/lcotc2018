@@ -13,7 +13,7 @@
                         <div class="col-md-8 col-md-offset-2">
                             <div class="call-to-action">
                                 <h1 class="title">UPCOMING EVENT</h1>
-                                <h2 class="title">LOCAL CONTENT CONFERENCE 2018 ON May 01 - 02 MAY, HOUSTON TEXAS</h2>
+                                <h2 class="title">LOCAL CONTENT CONFERENCE 2018 ON May 01 - 02 MAY, <a href="http://www.marriott.com/hotels/travel/houdj-jw-marriott-houston-downtown/" target="_blank">JW Marriott Houston Downtown, 806 Main St., Houston, TX.  77002</a></h2>
                                 <p>DON'T MISS OUT. This is the only major international local content event in the oil and gas industry in 2018. You'll meet local content experts from Middle East, Europe, Asia, Africa and South America.</p>
                                 <a href="{{url('/registration')}}" class="btn btn-default btn-lg">Register Now <i class="pl-10 fa fa-check"></i></a>
                             </div>
