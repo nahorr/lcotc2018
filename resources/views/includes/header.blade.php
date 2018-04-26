@@ -1,3 +1,4 @@
+                     
 <!-- header-top start (Add "dark" class to .header-top in order to enable dark header-top e.g <div class="header-top dark">) -->
             <!-- ================ -->
             <div class="header-top">
@@ -114,7 +115,7 @@
                                                     <li class="">
                                                         <a href="{{url('/sponsors')}}">Sponsors</a>
                                                     </li>
-                                                    
+                                                 
                                                 </ul>
                                             </div>
 

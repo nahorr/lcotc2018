@@ -3131,17 +3131,17 @@ ul.pagination li > a:focus {
 /* Alerts
 ---------------------------------- */
 .alert {
-	margin: 20px 0;
+	/*margin: 20px 0;*/
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
 	position: relative;
-	padding-left: 70px;
+	/*padding-left: 38%;*/
 	overflow: hidden;
 	z-index: 1;
 	border: none;
 }
-.alert:before {
+/*.alert:before {
 	position: absolute;
 	content: "";
 	top: 0px;
@@ -3150,13 +3150,13 @@ ul.pagination li > a:focus {
 	height: 101%;
 	background-color: rgba(0, 0, 0, 0.25);
 	z-index: 2;
-}
+}*/
 .alert-success {
 	color: #2a5f2b;
 	background-color: #bcdab0;
 }
 .alert-info {
-	color: #1a4e68;
+	color: #cd3c2e;
 	background-color: #c6e8fa;
 }
 .alert-warning {
@@ -3175,9 +3175,9 @@ ul.pagination li > a:focus {
 .alert.alert-success:after {
 	content: "\f00c";
 }
-.alert.alert-info:after {
+/*.alert.alert-info:after {
 	content: "\f05a";
-}
+}*/
 .alert.alert-warning:after {
 	content: "\f071";
 }

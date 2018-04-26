@@ -10,9 +10,20 @@
 				<div class="fixed-image section light-translucent-bg" style="background-image:url('idea/images/about.jpg');">
 					<div class="container">
 					<div class="space-top"></div>
-					<h1>SPEAKERS</h1>
-					<div class="separator-2"></div>
-					<p class="lead">Speakers will include NOC's presenting/marketing their local content policies, IOCs, OSCs, local content professionals and institutions in oil and gas industry. </p>
+						<h1>SPEAKERS</h1>
+						<div class="separator-2"></div>
+						<p class="lead">Speakers will include NOC's presenting/marketing their local content policies, IOCs, OSCs, local content professionals and institutions in oil and gas industry. </p>
+						<div class="row">
+							<div class="col-md-8">
+								<h1 class="title text-center"> <a href=" {{url('/flyer/Flyer_Local_Content.jpg')}} " target="_blank">View or Download Event Flyer</a></h1>
+								
+							</div>
+							<div class="col-md-4">
+								<div class="text-center">
+									<a href="{{ url('/flyer/Flyer_Local_Content.jpg') }}" target="_blank" class="btn btn-white btn-lg"> Download Event Flyer</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -121,23 +132,7 @@
 							</div>
 						</div>
 
-						<div class="col-lg-6 col-md-12">
-							<div class="image-box team-member white-bg option-3">
-								<div class="overlay-container">
-									<img src="{{asset('idea/images/willy_olsen.jpg')}}" alt="">
-									
-								</div>
-								<div class="image-box-body">
-									<h3 class="title">  Willy Olsen</h3>
-									<small>Speaker</small>
-									<div class="separator-2"></div>
-									<small>Senior Advisor, INTSOK</small>
-									<div class="separator-2"></div>
-									<h3 class="title"></h3>
-									<small>Local Content Strategy - Perspective of Norway</small>
-								</div>
-							</div>
-						</div>
+						
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
@@ -158,25 +153,7 @@
 							</div>
 						</div>
 
-						<div class="col-lg-6 col-md-12">
-							<div class="image-box team-member white-bg option-3">
-								<div class="overlay-container">
-									<img src="{{asset('idea/images/andrea_moreno.jpg')}}" alt="">
-									
-								</div>
-								<div class="image-box-body">
-									<h3 class="title">Andrea Moreno</h3>
-									<small>Speaker</small>
-									<div class="separator-2"></div>
-									<small>Chief Compliance Officer and Local Content Expert</small>
-									<div class="separator-2"></div>
-									<h3 class="title"></h3>
-									<small> Grupo Mieres Angola Lda The Gate to Angola Business</small>
-									<div class="separator-2"></div>
-									<small><a href="https://www.grupomieres.com" target="_blank"> www.grupomieres.com</a></small>
-								</div>
-							</div>
-						</div>
+						
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
@@ -338,6 +315,39 @@
 								</div>
 							</div>
 						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="{{asset('idea/images/Prof_Engobo_Emeseh.jpg')}}" alt="">
+									
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Prof Engobo Emeseh</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small>Head of Law School at University of Bradford, U.K</small>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
+									<img src="{{asset('idea/images/Miriam_Grunstein.jpg')}}" alt="">
+									
+								</div>
+								<div class="image-box-body">
+									<h3 class="title">Miriam Grunstein</h3>
+									<small>Speaker</small>
+									<div class="separator-2"></div>
+									<small></small>
+									
+								</div>
+							</div>
+						</div>
+						
 						
 					</div>
 					<div class="space"></div>

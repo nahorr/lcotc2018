@@ -1,3 +1,8 @@
+            <div class="row">
+                <div class="alert alert-info text-center" role="alert">
+                    <strong>Watch out for Local Content Houston 2019!</strong> 
+                </div>
+            </div>
             <!-- ================ -->
             <div class="page-top">
                 <div class="container">
@@ -6,9 +11,10 @@
                             <div class="call-to-action">
                                 <h1 class="title">Opening Address will be delivered by</h1>
                                 <h2 class="title">Secretary Rick Perry, United States Secretary of Energy (representative)</h2>
-                                
+                                <a href="{{url('/press_release/Press_Release-23-April_Final.pdf')}} " target="_blank"" class="btn radius btn-warning btn-lg">Press Release</a>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
