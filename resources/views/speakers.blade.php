@@ -65,6 +65,24 @@
 						<div class="col-lg-6 col-md-12">
 							<div class="image-box team-member white-bg option-3">
 								<div class="overlay-container">
+									<img src="{{asset('idea/images/keynote_speaker_speakers.jpg')}}" alt="">
+									
+								</div>
+								<div class="image-box-body">
+									<h3 class="title"> Dr. Goodluck Jonathan</h3>
+									<small> Opening Remarks</small>
+									<div class="separator-2"></div>
+									<small>Former President of Nigeria </small>
+									<div class="separator-2"></div>
+									
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12">
+							<div class="image-box team-member white-bg option-3">
+								<div class="overlay-container">
 									<img src="{{asset('idea/images/FuadMosa.jpg')}}" alt="">
 									
 								</div>

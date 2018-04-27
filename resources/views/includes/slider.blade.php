@@ -7,15 +7,24 @@
             <div class="page-top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
+                        <div class="col-md-6">
                             <div class="call-to-action">
                                 <h1 class="title">Opening Address will be delivered by</h1>
                                 <h2 class="title">Secretary Rick Perry, United States Secretary of Energy (representative)</h2>
-                                <a href="{{url('/press_release/Press_Release-23-April_Final.pdf')}} " target="_blank"" class="btn radius btn-warning btn-lg">Press Release</a>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="call-to-action">
+                                <h1 class="title">Dr. Goodluck Jonathan</h1>
+                                <h2 class="title">will be presenting the keynote speech on May 2 on Local Content in Nigeria</h2>
+                                
                             </div>
                         </div>
 
                     </div>
+                    <div class="row text-center"><a href="{{url('/press_release/Press_Release-23-April_Final.pdf')}} " target="_blank"" class="btn radius btn-warning btn-lg">Press Release</a></div><br>
                 </div>
             </div>
             <!-- page-top end -->
