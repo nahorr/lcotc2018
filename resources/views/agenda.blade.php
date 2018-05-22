@@ -81,7 +81,7 @@
 							</div>
 							<div class="col-md-4">
 								<div class="text-center">
-									<a href="{{ url('/agendafiles/ConferenceAgenda_26.pdf') }}" target="_blank" class="btn btn-white btn-lg"> Full Agenda </a>
+									<a href="{{ url('/agendafiles/Final_2018_Conference_Agenda.pdf') }}" target="_blank" class="btn btn-white btn-lg"> Full Agenda </a>
 								</div>
 							</div>
 						</div>
