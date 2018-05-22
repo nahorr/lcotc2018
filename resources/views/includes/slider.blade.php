@@ -28,13 +28,26 @@
 
                         <div class="btn-group" role="group" aria-label="Basic example">
                             
-                                <a href="{{url('/press_release/Press_Release-23-April_Final.pdf')}} " target="_blank" class="btn radius btn-warning btn-lg">Press Release</a>
+                                <a href="{{url('/press_release/Press_Release-23-April_Final.pdf')}} " target="_blank" class="btn radius btn-warning">Press Release</a>
                            
                             
-                                <a href="{{url('/press_release/Local_Content_Conference_Houston 2018_Thank_You_To_Attendees.pdf')}} " target="_blank" class="btn radius btn-info btn-lg">Thank You Note</a>
+                                <a href="{{url('/press_release/Local_Content_Conference_Houston 2018_Thank_You_To_Attendees.pdf')}} " target="_blank" class="btn radius btn-info">Thank You Note</a>
                             
+                           
+                                <a href="{{url('papers')}} " class="btn radius btn-primary">Papers - 2018 Conference</a>
+
+                                
                             
-                                <a href="{{url('papers')}} " class="btn radius btn-primary btn-lg">2018 Conference Papers</a>
+                        </div>
+                        <hr>
+
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            
+                               
+
+                                <a href="{{url('pictures')}} " class="btn radius btn-success">Pictures-2018 Conference</a>
+
+                                <a href="{{url('videos')}} " class="btn radius btn-danger">Videos-2018 Conference</a>
                             
                         </div>
                             

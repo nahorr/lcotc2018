@@ -67,6 +67,16 @@ class HomePublicController extends Controller
         return view('papers');
     }
 
+    public function pictures()
+    {
+        return view('pictures');
+    }
+
+    public function videos()
+    {
+        return view('videos');
+    }
+
     public function careers()
     {
         $jobs = Job::latest()->get();

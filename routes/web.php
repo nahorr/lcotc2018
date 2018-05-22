@@ -22,6 +22,8 @@ Route::get('/agenda', 'HomePublicController@agenda');
 Route::get('/speakers', 'HomePublicController@speakers');
 Route::get('/sponsors', 'HomePublicController@sponsors');
 Route::get('/papers', 'HomePublicController@papers');
+Route::get('/pictures', 'HomePublicController@pictures');
+Route::get('/videos', 'HomePublicController@videos');
 
 
 /*
