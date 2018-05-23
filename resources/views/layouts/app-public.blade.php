@@ -103,6 +103,9 @@
         <!-- Appear javascript -->
         <script type="text/javascript" src="{{asset('idea/plugins/jquery.appear.js')}}"></script>
 
+        <!-- Sharrre javascript -->
+        <script type="text/javascript" src="{{asset('idea/plugins/jquery.sharrre.js')}}"></script>
+
         <!-- Count To javascript -->
         <script type="text/javascript" src="{{asset('idea/plugins/jquery.countTo.js')}}"></script>
 
