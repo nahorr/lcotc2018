@@ -56,10 +56,10 @@
                     </a>
                 </li>
 
-                <li {{{ (Request::is('home') ? 'class=active' : '') }}}>
-                    <a href="{{ url('/home') }}">
-                        <i class="fa fa-user"></i>
-                        User Profile
+                <li {{{ (Request::is('admin/pictures') ? 'class=active' : '') }}}>
+                    <a href="{{ url('/admin/pictures') }}">
+                        <i class="fa fa-picture-o"></i>
+                        Pictures
                     </a>
                 </li>
                 

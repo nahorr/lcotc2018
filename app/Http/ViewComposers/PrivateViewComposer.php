@@ -11,6 +11,7 @@ use App\ContactUs;
 use Carbon\Carbon;
 use App\Speaker;
 use App\Sponsor;
+use App\Picture;
 use App\User;
 use App\Job;
 
@@ -38,12 +39,15 @@ Class PrivateViewComposer {
 
         $users = User::get();
 
+        $pictures = Picture::get();
+
         //put variables in views
         $view->with('today', $today)
              ->with('sponsors', $sponsors)
              ->with('speakers', $speakers)
              ->with('contactus', $contactus)
-             ->with('users', $users);
+             ->with('users', $users)
+             ->with('pictures', $pictures);
 
     }
 }

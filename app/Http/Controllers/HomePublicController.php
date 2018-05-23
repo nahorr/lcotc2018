@@ -20,6 +20,7 @@ use App\User;
 use App\ContactUs;
 use Mail;
 use App\Speaker;
+use App\Picture;
 
 use Illuminate\Support\Facades\Input;
 
@@ -69,6 +70,8 @@ class HomePublicController extends Controller
 
     public function pictures()
     {
+     
+
         return view('pictures');
     }
 

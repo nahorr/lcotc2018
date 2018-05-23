@@ -79,69 +79,26 @@
 
 			        <div class="row grid-space-20">
 
-			          <div class="col-xs-3">
+			        	@foreach($event_pictures as $key=>$event_picture)
+			        	
+				          <div class="col-xs-3">
 
-			            <div class="overlay-container">
+				            <div class="overlay-container">
 
-			              <img src="{{asset('idea/images/portfolio-item-1.jpg')}}" alt="">
+				              <img src="{{asset('eventpictures/images/'.$event_picture->picture)}}" alt="">
 
-			              <a href="{{asset('idea/images/portfolio-item-1.jpg')}}" class="overlay small popup-img" title="Second image title">
+				              <a href="{{asset('eventpictures/images/'.$event_picture->picture)}}" class="overlay small popup-img" title="Second image title">
 
-			                <i class="fa fa-search-plus"></i>
+				                <i class="fa fa-search-plus"></i>
 
-			              </a>
+				              </a>
 
-			            </div>
+				            </div>
 
-			          </div>
+				          </div>
 
-			          <div class="col-xs-3">
+				         @endforeach
 
-			            <div class="overlay-container">
-
-			              <img src="{{asset('idea/images/portfolio-2.jpg')}}" alt="">
-
-			              <a href="{{asset('idea/images/portfolio-2.jpg')}}" class="overlay small popup-img" title="Third image title">
-
-			                <i class="fa fa-search-plus"></i>
-
-			              </a>
-
-			            </div>
-
-			          </div>
-
-			          <div class="col-xs-3">
-
-			            <div class="overlay-container">
-
-			              <img src="{{asset('idea/images/portfolio-3.jpg')}}" alt="">
-
-			              <a href="{{asset('idea/images/portfolio-3.jpg')}}" class="overlay small popup-img" title="Fourth image title">
-
-			                <i class="fa fa-search-plus"></i>
-
-			              </a>
-
-			            </div>
-
-			          </div>
-
-			          <div class="col-xs-3">
-
-			            <div class="overlay-container">
-
-			              <img src="{{asset('idea/images/portfolio-4.jpg')}}" alt="">
-
-			              <a href="{{asset('idea/images/portfolio-4.jpg')}}" class="overlay small popup-img" title="Fifth image title">
-
-			                <i class="fa fa-search-plus"></i>
-
-			              </a>
-
-			            </div>
-
-			          </div>
 
 			        </div>
 

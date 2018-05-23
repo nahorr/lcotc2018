@@ -9,6 +9,7 @@ use App\JobApplication;
 use App\ContactUs;
 use App\Sponsor;
 use App\Speaker;
+use App\Picture;
 use App\User;
 use App\Job;
 use File;
@@ -146,5 +147,98 @@ class HomeController extends Controller
     	
     	return view('admin.contactformsubmissions');
     }
+
+    //is_admin show list of pictures page
+   public function pictures()
+    {
+        
+        return view('admin.pictures');
+    }
+
+    public function addPicture()
+    {
+
+        return view('admin.pictures.addpicture');
+    } 
    
+   public function postAddPicture(Request $request)
+    {
+        $this->validate(request(), [
+
+            'picture' => 'required|mimes:jpg,jpeg,bmp,png|max:10000',
+        ]);
+
+        if($request->hasFile('picture')){
+            $picture = $request->file('picture');
+            $filename = time() . '.' . $picture->getClientOriginalExtension();
+            $destinationPath = public_path().'/eventpictures/images/' ;
+            $picture->move($destinationPath,$filename);
+            
+        } else {
+            $filename = $request->picture;
+        }
+        
+        Picture::insert([
+            'picture'=>$filename,
+            'created_at' => date('Y-m-d H:i:s'),
+            'updated_at' => date('Y-m-d H:i:s'),
+        ]);
+        
+        
+        flash('Picture Added Successfully')->success();
+
+        return redirect()->route('pictures');
+    }
+
+    public function editPicture($picture_id)
+    {
+        $picture = Picture::find($picture_id);
+
+        return view('admin.pictures.editpicture', compact('picture'));
+    }
+
+    public function postEditPicture(Request $request, $picture_id)
+    {
+        $edit_picture = Picture::find($picture_id);
+
+        $this->validate(request(), [
+            
+            'picture' => 'required|mimes:jpg,jpeg,bmp,png|max:10000',
+            
+        ]);
+        
+        
+        if($request->hasFile('picture')){
+            $picture = $request->file('picture');
+            $filename = time() . '.' . $picture->getClientOriginalExtension();
+                // Delete current image before uploading new image
+                if($edit_picture->picture !== null) {
+                     $file = public_path('eventpictures/images/' . $edit_picture->picture);
+                    if (File::exists($file)) {
+                        unlink($file);
+                    }
+                }
+            $destinationPath = public_path().'/eventpictures/images/' ;
+            $picture->move($destinationPath,$filename);
+            
+        } else {
+            $filename = $request->picture;
+        }
+        $picture_edit = Picture::where('id', '=', $edit_picture->id)->first();
+        
+        $picture_edit->picture= $filename;
+        
+        $picture_edit->save();
+        
+        flash('Picture Edited Successfully')->success();
+
+        return redirect()->route('pictures');
+    }
+
+    public function deletePicture($picture_id)
+    {
+        Picture::destroy($picture_id);
+        flash('Record has been deleted')->error();
+        return back();
+    }
 }

@@ -7,6 +7,7 @@ use App\Repositories\UserRepository;
 use Illuminate\Support\Facades\Input;
 
 use Carbon\Carbon;
+use App\Picture;
 use App\Job;
 
 
@@ -22,9 +23,11 @@ Class PublicViewComposer {
         //count jobs less than or equal to a weeks old          
         $new_jobs = Job::count();
 
+        //count jobs less than or equal to a weeks old          
+        $event_pictures = Picture::get();
 
         //put variables in views
-        $view->with('today', $today)->with('new_jobs', $new_jobs);
+        $view->with('today', $today)->with('new_jobs', $new_jobs)->with('event_pictures', $event_pictures);
         
     }
 }

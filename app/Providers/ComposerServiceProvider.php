@@ -23,6 +23,7 @@ class ComposerServiceProvider extends ServiceProvider
                 'speakers',
                 'careers',
                 'contact',
+                'pictures',
                 'products-services',
                 'includes/header'
             

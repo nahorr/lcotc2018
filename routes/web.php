@@ -38,7 +38,7 @@ Route::post('/careers/postjobapplicationform', 'HomePublicController@postJobAppl
 //Auth routes
 Auth::routes();
 
-//Logged in uers
+//Logged in users
 Route::get('/home', 'HomeController@index')->name('home');
 
 //Logged in Admin users
@@ -55,6 +55,13 @@ Route::group(['middleware' => 'admin'], function () {
     Route::get('/admin/deletespeaker/{speaker}', 'Admin\HomeController@deleteSpeaker')->name('deletespeaker');
 
     Route::get('/admin/contactformsubmissions', 'Admin\HomeController@contactformsubmissions')->name('contactformsubmissions');
+
+    Route::get('/admin/pictures', 'Admin\HomeController@pictures')->name('pictures');
+    Route::get('/admin/pictures/addpicture', 'Admin\HomeController@addPicture')->name('addpicture');
+    Route::post('/admin/pictures/postaddpicture', 'Admin\HomeController@postAddPicture');
+    Route::get('/admin/pictures/editpicture/{picture}', 'Admin\HomeController@editPicture')->name('editpicture');
+    Route::post('/admin/pictures/posteditpicture/{picture}', 'Admin\HomeController@postEditPicture');
+    Route::get('/admin/deletepicture/{picture}', 'Admin\HomeController@deletePicture')->name('deletepicture');
 
 
 });
