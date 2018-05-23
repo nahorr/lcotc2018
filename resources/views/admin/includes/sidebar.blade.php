@@ -40,7 +40,7 @@
                         Sponsors
                     </a>
                 </li>
-                -->
+                
 
                 <li {{{ (Request::is('admin/speakers') ? 'class=active' : '') }}}>
                     <a href="{{ url('/admin/speakers') }}">
@@ -55,7 +55,8 @@
                         Contact Form
                     </a>
                 </li>
-
+                -->
+                
                 <li {{{ (Request::is('admin/pictures') ? 'class=active' : '') }}}>
                     <a href="{{ url('/admin/pictures') }}">
                         <i class="fa fa-picture-o"></i>
