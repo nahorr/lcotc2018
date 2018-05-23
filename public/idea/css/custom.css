@@ -8,4 +8,7 @@ Created: August 2014
 License URI: http://support.wrapbootstrap.com/
 File Description: Place here your custom CSS styles
 */
-
+/* add max and min heights to image*/
+.grid-space-20 .col-lg-6, .grid-space-20 .col-lg-4, .grid-space-20 .col-lg-3, .grid-space-20 .col-md-6, .grid-space-20 .col-md-4, .grid-space-20 .col-md-3, .grid-space-20 .col-sm-6, .grid-space-20 .col-sm-4, .grid-space-20 .col-sm-3, .grid-space-20 .col-xs-6, .grid-space-20 .col-xs-4, .grid-space-20 .col-xs-3 {
+    max-height: 80px;
+    min-height: 80px;

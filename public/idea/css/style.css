@@ -773,6 +773,8 @@ tbody {
 .grid-space-20 .col-xs-3 {
 	padding-left: 10px;
 	padding-right: 10px;
+	max-height: 80px;
+    min-height: 80px;
 }
 .grid-space-10 {
 	margin-right: -6px;
