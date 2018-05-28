@@ -9,7 +9,10 @@
                         <div class="row">
                             <div class="col-md-10">
                                 <div class="footer-content">
-                                    <div class="logo-footer"><img id="logo-footer" src="{{asset('idea/images/marak_footer_logo.png')}}" alt=""></div>
+                                    <div class="logo-footer">
+                                        
+                                        <img id="logo-footer" src="{{asset('idea/images/marak_footer_logo.png')}}" alt="">
+                                    </div>
                                     <div class="row">
                                         <div class="col-sm-8">
                                             <p>Through our values we are positioned to deliver excellent customer service. Our customers’ satisfaction is our business; our customers are always right; our customers come first. We will always provide qualitative service and value for money to meet and exceed our customers' expectation. </p>
@@ -53,3 +56,4 @@
                 </div>
                 <!-- .footer end -->
                 
+        

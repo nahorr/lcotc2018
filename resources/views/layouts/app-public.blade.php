@@ -9,6 +9,7 @@
         <title>MARAK ALLIANCE LLC</title>
         <meta name="description" content="MARAK ALLIANCE LLC - localcontentotc2018">
         <meta name="author" content="localcontentotc2018.com">
+        <meta property="og:image" content="{{asset('idea/images/marak_footer_logo.png')}}">
 
         <!-- Mobile Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -69,6 +70,11 @@
         <!-- page wrapper start -->
         <!-- ================ -->
         <div class="page-wrapper">
+
+            <link itemprop="thumbnailUrl" href="{{asset('idea/images/marak_footer_logo.png')}}"> 
+            <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject"> 
+              <link itemprop="url" href="{{asset('idea/images/marak_footer_logo.png')}}"> 
+            </span>
 
             
 
