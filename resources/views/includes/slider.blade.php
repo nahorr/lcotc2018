@@ -28,7 +28,7 @@
 
                         <div class="btn-group" role="group" aria-label="Basic example">
                             
-                                <a href="{{url('/press_release/Press_Release-23-April_Final.pdf')}} " target="_blank" class="btn radius btn-warning">Press Release</a>
+                                <a href="{{url('/press-release')}} " class="btn radius btn-warning">Press Release</a>
                            
                             
                                 <a href="{{url('/press_release/Local_Content_Conference_Houston 2018_Thank_You_To_Attendees.pdf')}} " target="_blank" class="btn radius btn-info">Thank You Note</a>

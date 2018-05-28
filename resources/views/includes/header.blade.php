@@ -97,9 +97,19 @@
                                                     <li class="active">
                                                         <a href="{{url('/')}}">Home</a>
                                                     </li>
-                                                    <li class="">
-                                                        <a href="{{url('/about')}}">About</a>
+                                                    <li class="dropdown">
+                                                        <a href="{{url('/about')}}" class="dropdown-toggle" data-toggle="dropdown">About</a>
+                                                        <ul class="dropdown-menu">
+
+                                                          <li><a href="{{url('/press-release')}}">Press Release</a></li>
+                                                          <li><a href="{{url('/pictures')}}">Conference Pictures</a></li>
+                                                          <li><a href="{{url('/videos')}}">Conference Vidoes</a></li>
+                                                          <li><a href="{{url('/papers')}}">Papers</a></li>
+
+                                                        </ul>
                                                     </li>
+                                                  
+                                                  </li>
                                                     <li class="">
                                                         <a href="{{url('/contact')}}">Contact</a>
                                                     </li>
