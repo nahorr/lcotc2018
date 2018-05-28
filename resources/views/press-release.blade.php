@@ -31,10 +31,10 @@
 			    <div class="row">
 			    	<div class="row">
 				    	<div class="col-md-6">
-				    		<img src="{{ asset('press_release/pr-img1.jpg') }}" class="img-responsive" alt="Localcontentotc2018 sabic" width="100%" height="300">
+				    		<img src="{{ asset('press_release/pr-img1.jpg') }}" class="img-responsive" alt="press-release" width="100%" height="300">
 				    	</div>
 				    	<div class="col-md-6">
-				    		<img src="{{ asset('press_release/pr-img2.jpg') }}" class="img-responsive" alt="Localcontentotc2018 sabic" width="100%" height="300">
+				    		<img src="{{ asset('press_release/pr-img2.jpg') }}" class="img-responsive" alt="press-release" width="100%" height="300">
 				    	</div>
 				    </div>
 			    	<hr>
