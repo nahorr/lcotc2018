@@ -24,6 +24,7 @@ class ComposerServiceProvider extends ServiceProvider
                 'careers',
                 'contact',
                 'pictures',
+                'press-release',
                 'products-services',
                 'includes/header'
             

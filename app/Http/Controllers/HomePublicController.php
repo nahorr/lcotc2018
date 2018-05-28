@@ -75,6 +75,13 @@ class HomePublicController extends Controller
         return view('pictures');
     }
 
+    public function pressRelease()
+    {
+     
+
+        return view('press-release');
+    }
+
     public function videos()
     {
         return view('videos');
