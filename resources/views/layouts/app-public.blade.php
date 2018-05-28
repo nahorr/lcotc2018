@@ -9,8 +9,13 @@
         <title>MARAK ALLIANCE LLC</title>
         <meta name="description" content="MARAK ALLIANCE LLC - localcontentotc2018">
         <meta name="author" content="localcontentotc2018.com">
-        <meta property="og:image" itemprop="image" content="{{asset('idea/images/marak_footer_logo.png')}}">
 
+         <!-- Facebook -->
+        <meta property="og:image" itemprop="image" content="{{asset('idea/images/marak_footer_logo.png')}}">
+        <!-- Twitter -->
+        <meta name="twitter:image:src" content="{{asset('idea/images/marak_footer_logo.png')}}">
+       
+       
         <!-- Mobile Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
