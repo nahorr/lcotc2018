@@ -105,6 +105,7 @@
                                                           <li><a href="{{url('/pictures')}}">Conference Pictures</a></li>
                                                           <li><a href="{{url('/videos')}}">Conference Vidoes</a></li>
                                                           <li><a href="{{url('/papers')}}">Papers</a></li>
+                                                          <li><a href="{{url('/2018-gala-dinner')}}">2018 Gala Dinner</a></li>
 
                                                         </ul>
                                                     </li>

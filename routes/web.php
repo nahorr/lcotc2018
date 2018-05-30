@@ -25,6 +25,7 @@ Route::get('/papers', 'HomePublicController@papers');
 Route::get('/pictures', 'HomePublicController@pictures');
 Route::get('/videos', 'HomePublicController@videos');
 Route::get('/press-release', 'HomePublicController@pressRelease');
+Route::get('/2018-gala-dinner', 'HomePublicController@galaDinner');
 
 /*
 Route::get('/products-services', 'HomePublicController@productsServices');

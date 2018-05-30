@@ -82,6 +82,13 @@ class HomePublicController extends Controller
         return view('press-release');
     }
 
+    public function galaDinner()
+    {
+     
+
+        return view('2018-gala-dinner');
+    }
+
     public function videos()
     {
         return view('videos');

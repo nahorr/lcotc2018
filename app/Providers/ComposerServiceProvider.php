@@ -26,7 +26,8 @@ class ComposerServiceProvider extends ServiceProvider
                 'pictures',
                 'press-release',
                 'products-services',
-                'includes/header'
+                'includes/header',
+                '2018-gala-dinner'
             
             ], 
             

@@ -40,6 +40,7 @@
         <link href="{{asset('idea/plugins/rs-plugin/css/extralayers.css')}}" media="screen" rel="stylesheet">
         <link href="{{asset('idea/plugins/magnific-popup/magnific-popup.css')}}" rel="stylesheet">
         <link href="{{asset('idea/css/animations.css')}}" rel="stylesheet">
+        <link href="{{asset('idea/plugins/jquery.countdown/jquery.countdown.css')}}" rel="stylesheet">
         <link href="{{asset('idea/plugins/owl-carousel/owl.carousel.css')}}" rel="stylesheet">
 
         <!-- iDea core CSS file -->
@@ -131,5 +132,19 @@
 
         <!-- Custom Scripts -->
         <script type="text/javascript" src="{{asset('idea/js/custom.js')}}"></script>
+
+        <!-- Count Down javascript -->
+        <script type="text/javascript" src="{{asset('idea/plugins/jquery.countdown/jquery.plugin.js')}}"></script>
+
+        <script type="text/javascript" src="{{asset('idea/plugins/jquery.countdown/jquery.countdown.js')}}"></script>
+
+        <script type="text/javascript" src="{{asset('idea/js/coming.soon.config.js')}}"></script>
+
+        <script>
+        var newYear = new Date(); 
+        newYear = new Date(newYear.getFullYear() + 0, 6 - 1, 13); 
+        $('#defaultCountdown').countdown({until: newYear}); 
+         
+        </script>
     </body>
 </html>

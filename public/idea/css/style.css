@@ -339,7 +339,7 @@ tbody {
 }
 .header {
 	padding: 20px 0;
-	border-bottom: 1px solid #eaeaea;
+	border-bottom: 5px solid #009798;
 	background-color: #fff;
 }
 .header.dark {
@@ -353,6 +353,8 @@ tbody {
 .banner {
 	background-color: #f1f1f1;
 	border-bottom: 1px solid #eaeaea;
+	/*margin-left: 10%;
+    margin-right: 10%;*/
 }
 .page-intro {
 	padding: 10px 0;
