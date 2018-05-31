@@ -141,9 +141,9 @@
         <script type="text/javascript" src="{{asset('idea/js/coming.soon.config.js')}}"></script>
 
         <script>
-        var newYear = new Date(); 
-        newYear = new Date(newYear.getFullYear() + 0, 6 - 1, 13); 
-        $('#defaultCountdown').countdown({until: newYear}); 
+            var newYear = new Date(); 
+            newYear = new Date(newYear.getFullYear() + 0, 6 - 1, 13); 
+            $('#defaultCountdown').countdown({until: newYear}); 
          
         </script>
     </body>
