@@ -6,6 +6,16 @@
             <!-- ================ -->
             <div class="page-top">
                 <div class="container">
+                    <div class="row text-center">
+
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            
+                                <a href="{{url('/2018-gala-dinner')}} " class="btn btn-danger">Gala Dinner – African Nite: 13 June 2018</a>
+                        </div>
+                       
+                            
+                    </div>
+                    <br>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="call-to-action">

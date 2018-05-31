@@ -14,7 +14,6 @@
 			
 			</section>
 			
-			<!-- banner end -->
 
 			<!-- main-container start -->
 			<!-- ================ -->
@@ -33,14 +32,19 @@
 			              <!-- countdown start -->
 
 			              <div id="defaultCountdown" class="countdown" style="color: red;"></div>
-
+			              <br>
+			              <div class="col-lg-8 col-md-offset-4">
+			              <a href="https://www.eventbrite.ca/e/gala-dinner-local-content-african-nite-tickets-46624803041?ref=ebtn" target="_blank"><img src="https://www.eventbrite.ca/custombutton?eid=46624803041" alt="Eventbrite - Gala Dinner – Local Content - African Nite" /></a>
+			              </div>
+			              
 			              <!-- countdown end -->
 
 			            </div>
 
 			            <!-- main end -->
+			        
+						<hr><br>
 
-			
 			            <div class="main col-md-12">
 			              
 			              <div class="row">
