@@ -50,12 +50,14 @@
 			              <div class="row">
 			                <div class="col-md-12">
 			                  
-			                  <h2>This gala dinner event in Calgary will:</h2>
+			                  <h2>This gala dinner event will:</h2>
 			                  <ul class="list-icons">
-			                    <li class="object-non-visible" data-animation-effect="fadeInUpSmall"><i class="icon-check"></i> appreciate entrepreneurs that have made local content and indigenous oil companies a great success story in Africa .</li>
-			                    <li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="icon-check"></i>present business opportunities available to Africans in diaspora through local content policies.</li>
-			                    <li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="300"><i class="icon-check"></i>  facilitate networking between Africans in Canada and home based Africans</li>
-			                    <li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="500"><i class="icon-check"></i>and many more with great food and wine </li>
+			                    <li class="object-non-visible" data-animation-effect="fadeInUpSmall"><i class="icon-check"></i> highlight opportunities for investment in the petroleum industry in countries including Nigeria against the background of local content policies.</li>
+			                    <li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="icon-check"></i>discuss strategies adopted by Canadian companies to integrate indigenous members of local communities within their supply chain.</li>
+			                    <li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="300"><i class="icon-check"></i>  discuss transferable strategies that have worked in Africa to integrate indigenous communities into the supply chain of companies</li>
+			                    <li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="500"><i class="icon-check"></i>appreciate entrepreneurs that have made local content and indigenous oil companies a great success story in Africa </li>
+			                    <li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="300"><i class="icon-check"></i>  present business opportunities available to Africans in diaspora through local content policies.</li>
+			                    <li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="500"><i class="icon-check"></i>networking and many more with great food and wine </li>
 			                    
 			                  </ul>
 
@@ -67,7 +69,7 @@
 
 			                  <p>This dinner follows a successful international Local Content Conference, which we, Marak Alliance organized in Houston, Texas on 01 - 02 May 2018 during the OTC week. Keynote address of the Conference was presented by H.E. Dr. Goodluck Jonathan, former president of Nigeria; and Mr. Shawn Bennett, Deputy Assistant Secretary, Oil and Gas, Department of Energy, United States.</p>
 			                  
-			                  <p>The Conference was attended by a diverse and experienced group of speakers and panelists from countries including but not limited to United States, United Kingdom, Nigeria, Netherlands, Mexico, Cote D’Ivoire, Canada, Argentina, Brazil, and Mozambique provided in-depth insight, as well as, actionable and practical tools for designing and implementing local content mostly African countries. The Conference highlighted the importance of encouraging entrepreneurship through local content. More details can be found on the event’s website at: <a href="https://localcontentotc2018.com">https://localcontentotc2018.com</a></p>
+			                  <p>The Conference was attended by a diverse and experienced group of speakers and panelists from countries including but not limited to United States, United Kingdom, Nigeria, Netherlands, Mexico, Cote D’Ivoire, Canada, Argentina, Brazil, and Mozambique provided in-depth insight, as well as, actionable and practical tools for designing and implementing local content mostly African countries. The Conference highlighted the importance of encouraging entrepreneurship through local content. More details can be found on the event’s website at: <a href="https://localcontentotc2018.com"> https://localcontentotc2018.com</a></p>
 			                 
 			                  <a class="btn btn-lg btn-default" href="https://localcontentotc2018.com/contact"><i class="fa fa-users pr-10"></i> Contact Us</a>
 			                </div>
