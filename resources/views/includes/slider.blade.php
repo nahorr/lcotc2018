@@ -58,7 +58,8 @@
                                 <a href="{{url('pictures')}} " class="btn radius btn-success">Pictures-2018 Conference</a>
 
                                 <a href="{{url('videos')}} " class="btn radius btn-danger">Videos-2018 Conference</a>
-                            
+                                
+                                <a href="{{url('/papers-2018/HoustonLocalContentConferenceWhitepaper-Final.pdf')}} " class="btn radius btn-default" target="_blank">White Paper-2018 Conference</a>
                         </div>
                             
                     </div>
