@@ -102,7 +102,7 @@
                                     data-speed="600"
                                     data-start="0"
                                     data-end="10000"
-                                    data-endspeed="600">UPCOMING EVENT: May 01 - 02 MAY, HOUSTON TEXAS
+                                    data-endspeed="600">PAST EVENT: May 01 - 02 MAY, HOUSTON TEXAS
                                 </div>
 
                                 <!-- LAYER NR. 2 -->
