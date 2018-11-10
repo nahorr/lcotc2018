@@ -1,16 +1,17 @@
             <div class="row">
                 <div class="alert alert-info text-center" role="alert">
-                    <strong>Watch out for Local Content Houston 2019!</strong> 
+                    <strong>FIRST GUYANESE OIL AND GAS LOCAL CONTENT CONFERENCE. <br>DATE: 04 - 05 DECEMBER 2018<br><a href="https://guyana.localcontentworld.com/">https://guyana.localcontentworld.com</a></strong> 
                 </div>
             </div>
             <!-- ================ -->
             <div class="page-top">
                 <div class="container">
                     <div class="row text-center">
-
-                        <div class="btn-group" role="group" aria-label="Basic example">
+                        <img src="{{asset('idea/images/GOGA_Conference_Advert.jpg')}}"  alt="slidebg1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 20px;">
+                                <a href="https://guyana.localcontentworld.com/" class="btn btn-danger">https://guyana.localcontentworld.com</a>
                             
-                                <a href="{{url('/2018-gala-dinner')}} " class="btn btn-danger">Gala Dinner – African Nite: 13 June 2018</a>
+                                
                         </div>
                        
                             
@@ -37,7 +38,9 @@
                     <div class="row text-center">
 
                         <div class="btn-group" role="group" aria-label="Basic example">
-                            
+
+                                <a href="{{url('/2018-gala-dinner')}} " class="btn radius btn btn-danger">Gala Dinner – African Nite: 13 June 2018</a>
+
                                 <a href="{{url('/press-release')}} " class="btn radius btn-warning">Press Release</a>
                            
                             
