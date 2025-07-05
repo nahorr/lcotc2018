@@ -10,7 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
+//+++++++++++++++++++++++++Frontend Starts++++++++++++++++++++++++++++++++++
+use App\Http\Controllers\HomePublicController;
 
 //Home public - pages accessible to the public
 Route::get('/', 'HomePublicController@index');
@@ -66,3 +70,7 @@ Route::group(['middleware' => 'admin'], function () {
 
 
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
