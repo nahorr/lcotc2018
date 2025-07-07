@@ -5,13 +5,13 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
 use App\Http\Controllers\Controller;
-use App\JobApplication;
-use App\ContactUs;
-use App\Sponsor;
-use App\Speaker;
-use App\Picture;
-use App\User;
-use App\Job;
+use App\Models\JobApplication;
+use App\Models\ContactUs;
+use App\Models\Sponsor;
+use App\Models\Speaker;
+use App\Models\Picture;
+use App\Models\User;
+use App\Models\Job;
 use File;
 
 class HomeController extends Controller

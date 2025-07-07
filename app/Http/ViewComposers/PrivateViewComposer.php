@@ -6,14 +6,14 @@ use Illuminate\View\View;
 use App\Repositories\UserRepository;
 
 
-use App\JobApplication;
-use App\ContactUs;
+use App\Models\JobApplication;
+use App\Models\ContactUs;
 use Carbon\Carbon;
-use App\Speaker;
-use App\Sponsor;
-use App\Picture;
-use App\User;
-use App\Job;
+use App\Models\Speaker;
+use App\Models\Sponsor;
+use App\Models\Picture;
+use App\Models\User;
+use App\Models\Job;
 
 
 Class PrivateViewComposer {

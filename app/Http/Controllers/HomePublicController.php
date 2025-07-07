@@ -8,19 +8,19 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 use Crypt;
-use App\Job;
+use App\Models\Job;
 use App\JobRequirement;
-use App\JobApplication;
+use App\Models\JobApplication;
 use App\Traits\CaptchaTrait;
 use Notification;
 use File;
 use App\Notifications\ApplicationSubmitted;
 use App\Notifications\ContactFormSubmitted;
-use App\User;
-use App\ContactUs;
+use App\Models\User;
+use App\Models\ContactUs;
 use Mail;
-use App\Speaker;
-use App\Picture;
+use App\Models\Speaker;
+use App\Models\Picture;
 
 use Illuminate\Support\Facades\Input;
 

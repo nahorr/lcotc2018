@@ -7,8 +7,8 @@ use App\Repositories\UserRepository;
 use Illuminate\Support\Facades\Input;
 
 use Carbon\Carbon;
-use App\Picture;
-use App\Job;
+use App\Models\Picture;
+use App\Models\Job;
 
 
 Class PublicViewComposer {
