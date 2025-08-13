@@ -209,7 +209,7 @@
 				              <p>The event will take place at the <a href="">Calgary Petroleum Club</a></p>
 				              <ul class="list-icons">
 				                <li><i class="fa fa-home"></i> Address:<a href=""> 319 5th Ave SW, Calgary AB T2P 0L5</a></li>
-				                <li><i class="fa fa-envelope"></i> Contact: <a href="mailto:mail@idea.con">info@marakconsulting.com</a></li>
+				                <li><i class="fa fa-envelope"></i> Contact: <a href="mailto:mail@idea.con">info@marakalliance.com</a></li>
 				                <li><i class="fa fa-user-plus"></i> Registration and networking reception:<a href=""> 6.00 pm - 6:30 pm</a></li>
 				                <li><i class="fa fa-clock-o"></i> Welcome Remarks:<a href="mailto:mail@idea.con"> 6:30 pm</a></li>
 				                <li><i class="fa fa-clock-o"></i> Opening Speech by Special Guest:<a href=""> 6.45 pm – 7.00 pm</a></li>
@@ -222,7 +222,7 @@
 				              <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.2502005022034!2d-114.07099628424687!3d51.04846777956243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716ffc8004218b%3A0x94b4bd1e6522dfff!2s319+5+Ave+SW%2C+Calgary%2C+AB+T2P+0L5!5e0!3m2!1sen!2sca!4v1527722589372" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
 
 				              <hr>
-				              <p>We look forward to welcoming you at the gala dinner. For any enquiries please call <a href="">Lorcenda Ozi, Event Manager, Marak Alliance on 832.404.7429 or email: info@marakconsulting.com</a></p>
+				              <p>We look forward to welcoming you at the gala dinner. For any enquiries please call <a href="">Lorcenda Ozi, Event Manager, Marak Alliance on 832.404.7429 or email: info@marakalliance.com</a></p>
 				              
 
 				            </div>

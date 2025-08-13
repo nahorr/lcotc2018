@@ -244,7 +244,7 @@ class HomePublicController extends Controller
                 
                 $m->from(Input::get('email'), Input::get('first_name'));
 
-                $m->to('info@marakconsulting.com');
+                $m->to('info@marakalliance.com');
 
             });
 

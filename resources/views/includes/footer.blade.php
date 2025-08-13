@@ -23,7 +23,7 @@
                                                 <li><i class="fa fa-map-marker pr-10"></i> Marak Alliance, LLC</li>
                                                 <li><i class="fa fa-map-marker pr-10"></i> 2502 La Branch St. Houston, TX 77004.</li>
                                                 <li><i class="fa fa-phone pr-10"></i> 832-404-7429</li>
-                                                <li><i class="fa fa-envelope-o pr-10"></i> info@marakconsulting.com</li>
+                                                <li><i class="fa fa-envelope-o pr-10"></i> info@marakalliance.com</li>
                                             </ul>
                                         </div>
                                     </div>

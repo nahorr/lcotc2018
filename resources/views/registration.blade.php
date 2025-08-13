@@ -48,7 +48,7 @@
 							<div class="row">
 								<div class="col-md-12">
 									<ul class="list-icons">
-										<li class="object-non-visible" data-animation-effect="fadeInUpSmall"><i class="icon-check"></i> If a registrant is unable to attend the event they may substitute someone else from the same company/organisation <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;provided the substitution is done in writing to info@marakconsulting.com on or before 28 February 2018</li>
+										<li class="object-non-visible" data-animation-effect="fadeInUpSmall"><i class="icon-check"></i> If a registrant is unable to attend the event they may substitute someone else from the same company/organisation <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;provided the substitution is done in writing to info@marakalliance.com on or before 28 February 2018</li>
 										<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="icon-check"></i>Registrations cancelled on or before 30 February 2018 will attract $150 administration cost</li>
 										<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="300"><i class="icon-check"></i>  Registrations cancelled after 30 February 2018 will not be eligible for refund</li>
 									</ul>
@@ -76,18 +76,18 @@
 							</p>
 							<ul class="list-icons">
 								<li><i class="fa fa-home"></i> Address: <a href="http://www.marriott.com/hotels/travel/houdj-jw-marriott-houston-downtown/" target="_blank">JW Marriott Houston Downtown, 806 Main St., Houston, TX. 77002</a></li>
-								<li><i class="fa fa-envelope"></i> <a href="mailto:mail@idea.con">Contact: info@marakconsulting.com</a></li>
+								<li><i class="fa fa-envelope"></i> <a href="mailto:mail@idea.con">Contact: info@marakalliance.com</a></li>
 							</ul>
 							<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.6650650561164!2d-95.36632858452832!3d29.75840513898245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf3b1e7f18d1%3A0xdf1d13a17a319a68!2sJW+Marriott+Houston+Downtown!5e0!3m2!1sen!2sca!4v1523897513250" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
 
 							<hr>
 							<h2>Visa Application</h2>
 							<p>The event will take place at the <a href="http://www.marriott.com/hotels/travel/houdj-jw-marriott-houston-downtown/" target="_blank">JW Marriott Houston Downtown, 806 Main St., Houston, TX.  77002</a></p>
-							<p>Organizer of Local Content Houston 2018 is happy to provide an official letter of invitation to delegates. Email: info@marakconsulting.com for the letter after registration.</p>
+							<p>Organizer of Local Content Houston 2018 is happy to provide an official letter of invitation to delegates. Email: info@marakalliance.com for the letter after registration.</p>
 							<hr>
 							<h2>HOTEL</h2>
 							<p>Hotels can be booked from various sites including but not limited to hotels.com. Please note that the Local Content Alliance event will be holding during the OTC 2018 week so it’s advisable to reserve accommodation well in advance</p>
-							<p><a href="https://www.visithoustontexas.com/hotels/">Discount</a> is available for attendees booking rooms at <a href="http://www.marriott.com/hotels/travel/houdj-jw-marriott-houston-downtown/">JW Marriott Houston Downtown, 806 Main St., Houston, TX.  77002</a>. Please contact info@marakconsulting.com for details. Other options for hotel booking are available at:  <a href="https://www.visithoustontexas.com/hotels/" target="_blank"> https://www.visithoustontexas.com/hotels/</a></p>
+							<p><a href="https://www.visithoustontexas.com/hotels/">Discount</a> is available for attendees booking rooms at <a href="http://www.marriott.com/hotels/travel/houdj-jw-marriott-houston-downtown/">JW Marriott Houston Downtown, 806 Main St., Houston, TX.  77002</a>. Please contact info@marakalliance.com for details. Other options for hotel booking are available at:  <a href="https://www.visithoustontexas.com/hotels/" target="_blank"> https://www.visithoustontexas.com/hotels/</a></p>
 							<hr>
 							<h2>SPEED NETWORKING</h2>
 							<p>Bring plenty of classic business cards for the speed networking session and your charm to find new business associates and expand your network. We’ll make it work for you!</p>
@@ -102,7 +102,7 @@
 								<!-- page-title start -->
 								<!-- ================ -->
 								<h2 class="page-title"><strong>Sponsorship Details: </strong></h2>
-								<h3> email: info@marakconsulting.com for details.We value your privacy and business</h3>
+								<h3> email: info@marakalliance.com for details.We value your privacy and business</h3>
 								<hr>
 							
 								<h3><strong>Benefits of sponsorship</strong></h3>

@@ -18,7 +18,7 @@
 							<div class="form-block center-block">
 								<h2 class="title">Contact Us</h2>
 
-								<p class="text-center">For quick response, please complete the contact form below or send us an email via info@marakconsulting.com</p>
+								<p class="text-center">For quick response, please complete the contact form below or send us an email via info@marakalliance.com</p>
 								<hr>
 								<form class="form-horizontal" role="form" action="{{url('/postcontactform/')}}" method="POST">
 									{{ csrf_field() }}

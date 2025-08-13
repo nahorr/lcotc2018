@@ -12,7 +12,7 @@
 					<div class="space-top"></div>
 					<h1>2018 Conference Papers</h1>
 					<div class="separator-2"></div>
-					<p class="lead">The Local Content Conference is being organised by Marak Alliance LLC in conjunction with international local content experts.<br /> Contact: info@marakconsulting.com</p>
+					<p class="lead">The Local Content Conference is being organised by Marak Alliance LLC in conjunction with international local content experts.<br /> Contact: info@marakalliance.com</p>
 					</div>
 				</div>
 			</div>

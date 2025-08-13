@@ -323,7 +323,7 @@
                                         <div class="row">
                                             
                                             <div class="col-md-12 text-center">
-                                                <p>Email info@marakconsulting.com with the relevant topic.</p>
+                                                <p>Email info@marakalliance.com with the relevant topic.</p>
                                                 <p> Spaces are limited and not all topics proffered may be accepted Speakers and expert panels  are expected from IOCs, ISPs, NOC’s, government policy makers, local companies, and law makers.</p>
                                             </div>
                                         </div>
@@ -339,7 +339,7 @@
                                             
                                             <div class="col-md-12 text-center">
                                                 <p>Register now to secure your space. Tickets are limited and selling fast. Group Registration of more than 5 delegates: please email </p>
-                                                <p>info@marakconsulting.com for more discounts offers</p>
+                                                <p>info@marakalliance.com for more discounts offers</p>
                                             </div>
                                         </div>
                                         <div class="col-md-12 text-center">
